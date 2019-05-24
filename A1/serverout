@@ -1,0 +1,1 @@
+Namespace(debug=False, maxPackets=400, maxSeqNum=7, packetErrorRate=1e-05, receiverIP='127.0.0.1', receiverPortNo=12345)

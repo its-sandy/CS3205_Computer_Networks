@@ -1,0 +1,15 @@
+Script started on Thursday 07 March 2019 07:54:46 PM IST
+[1m[7m%[27m[1m[0m                                                                                                                                                     [0m[27m[24m[J[34m~/D/C/A/slotted aloha [K[?1h=[0m[27m[24m[J[34m~/D/C/A/slotted aloha [1m[31m❯[33m❯[32m❯[39m[0m [K[?2004h[0m[27m[24m[J[34m~/D/C/A/slotted aloha [1m[31m❯[33m❯[32m❯[39m[0m [Kexec bash[9Dps        -p $$[8Dpython slotted_aloha.py -r[26Dps -p $$                  [18D     exec bash[9D         [9D../slo[1m[37m...[39m[0m[33m[39m[33m[39m[33m[39m[33m[39m[33m[39m[33m[39m[0m[27m[24m[J[34m~/D/C/A/slotted aloha [1m[31m❯[33m❯[32m❯[39m[0m ./slotted_aloha_script.sh[1m [0m[K[0m [?1l>[?2004l[0m[27m[24m[J[34m~/D/C/A/slotted aloha [1m[31m❯[33m❯[32m❯[39m[0m ./slotted_aloha_script.sh[K
+No. of Nodes (n) =  50 ; w =  2 ; p =  0.01 ; Utilization =  0.34408602150537637 ; Average Packet Delay =  116.677
+No. of Nodes (n) =  50 ; w =  2 ; p =  0.02 ; Utilization =  0.36271309394269136 ; Average Packet Delay =  189.86650000000012
+No. of Nodes (n) =  50 ; w =  2 ; p =  0.03 ; Utilization =  0.37133308577794283 ; Average Packet Delay =  210.15349999999995
+No. of Nodes (n) =  50 ; w =  2 ; p =  0.05 ; Utilization =  0.3743916136278547 ; Average Packet Delay =  230.40475000000004
+No. of Nodes (n) =  50 ; w =  2 ; p =  0.1 ; Utilization =  0.37411148522259635 ; Average Packet Delay =  246.5995
+No. of Nodes (n) =  50 ; w =  4 ; p =  0.01 ; Utilization =  0.33738191632928477 ; Average Packet Delay =  113.26424999999995
+No. of Nodes (n) =  50 ; w =  4 ; p =  0.02 ; Utilization =  0.37285607755406414 ; Average Packet Delay =  185.1580000000003
+No. of Nodes (n) =  50 ; w =  4 ; p =  0.03 ; Utilization =  0.3644979041370512 ; Average Packet Delay =  216.81799999999976
+No. of Nodes (n) =  50 ; w =  4 ; p =  0.05 ; Utilization =  0.3775009437523594 ; Average Packet Delay =  228.06924999999998
+No. of Nodes (n) =  50 ; w =  4 ; p =  0.1 ; Utilization =  0.3793986531347814 ; Average Packet Delay =  240.30049999999994
+[1m[7m%[27m[1m[0m                                                                                                                                                     [0m[27m[24m[J[34m~/D/C/A/slotted aloha [1m[31m❯[33m❯[32m❯[39m[0m [K[?1h=[0m[27m[24m[J[34m~/D/C/A/slotted aloha [1m[31m❯[33m❯[32m❯[39m[0m [K[?2004h[0m[27m[24m[J[34m~/D/C/A/slotted aloha [1m[31m❯[33m❯[32m❯[39m[0m [K[?2004l
+
+Script done on Thursday 07 March 2019 07:55:09 PM IST

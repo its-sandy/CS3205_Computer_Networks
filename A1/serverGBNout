@@ -1,0 +1,221 @@
+Namespace(debug=True, maxPackets=100, maxSeqNum=11, packetErrorRate=0.5, receiverIP='127.0.0.1', receiverPortNo=12345, verbose=True)
+2019-02-24 17:13:59.138310 Seq #0:  Time Received: 1999.971;  Packet Dropped = true
+2019-02-24 17:13:59.243695 Seq #1:  Time Received: 2105.347;  Packet Dropped = true
+2019-02-24 17:13:59.244026 Seq #0:  Time Received: 2105.699;  Packet Dropped = true
+2019-02-24 17:13:59.244080 Seq #1:  Time Received: 2105.738;  Packet Dropped = false;  ACK = -1
+2019-02-24 17:13:59.349436 Seq #0:  Time Received: 2211.068;  Packet Dropped = false;  ACK = 0
+2019-02-24 17:13:59.349724 Seq #1:  Time Received: 2211.380;  Packet Dropped = false;  ACK = 1
+2019-02-24 17:13:59.349792 Seq #2:  Time Received: 2211.470;  Packet Dropped = true
+2019-02-24 17:13:59.455163 Seq #3:  Time Received: 2316.835;  Packet Dropped = true
+2019-02-24 17:13:59.461048 Seq #2:  Time Received: 2322.683;  Packet Dropped = false;  ACK = 2
+2019-02-24 17:13:59.461097 Seq #3:  Time Received: 2322.763;  Packet Dropped = true
+2019-02-24 17:13:59.560625 Seq #4:  Time Received: 2422.274;  Packet Dropped = false;  ACK = 2
+2019-02-24 17:13:59.571971 Seq #3:  Time Received: 2433.644;  Packet Dropped = true
+2019-02-24 17:13:59.572027 Seq #4:  Time Received: 2433.690;  Packet Dropped = false;  ACK = 2
+2019-02-24 17:13:59.666008 Seq #5:  Time Received: 2527.679;  Packet Dropped = true
+2019-02-24 17:13:59.677615 Seq #3:  Time Received: 2539.265;  Packet Dropped = false;  ACK = 3
+2019-02-24 17:13:59.677689 Seq #4:  Time Received: 2539.354;  Packet Dropped = false;  ACK = 4
+2019-02-24 17:13:59.677726 Seq #5:  Time Received: 2539.393;  Packet Dropped = true
+2019-02-24 17:13:59.771387 Seq #6:  Time Received: 2633.040;  Packet Dropped = false;  ACK = 4
+2019-02-24 17:13:59.793783 Seq #5:  Time Received: 2655.429;  Packet Dropped = false;  ACK = 5
+2019-02-24 17:13:59.793836 Seq #6:  Time Received: 2655.514;  Packet Dropped = true
+2019-02-24 17:13:59.876842 Seq #7:  Time Received: 2738.512;  Packet Dropped = true
+2019-02-24 17:13:59.904650 Seq #6:  Time Received: 2766.310;  Packet Dropped = true
+2019-02-24 17:13:59.904682 Seq #7:  Time Received: 2766.362;  Packet Dropped = true
+2019-02-24 17:13:59.982316 Seq #8:  Time Received: 2843.941;  Packet Dropped = false;  ACK = 5
+2019-02-24 17:14:00.010145 Seq #6:  Time Received: 2871.811;  Packet Dropped = true
+2019-02-24 17:14:00.010224 Seq #7:  Time Received: 2871.868;  Packet Dropped = false;  ACK = 5
+2019-02-24 17:14:00.010260 Seq #8:  Time Received: 2871.930;  Packet Dropped = false;  ACK = 5
+2019-02-24 17:14:00.087764 Seq #9:  Time Received: 2949.414;  Packet Dropped = false;  ACK = 5
+2019-02-24 17:14:00.115618 Seq #6:  Time Received: 2977.248;  Packet Dropped = false;  ACK = 6
+2019-02-24 17:14:00.115688 Seq #7:  Time Received: 2977.353;  Packet Dropped = false;  ACK = 7
+2019-02-24 17:14:00.115725 Seq #8:  Time Received: 2977.392;  Packet Dropped = true
+2019-02-24 17:14:00.115741 Seq #9:  Time Received: 2977.422;  Packet Dropped = true
+2019-02-24 17:14:00.193387 Seq #10:  Time Received: 3055.031;  Packet Dropped = true
+2019-02-24 17:14:00.231903 Seq #8:  Time Received: 3093.575;  Packet Dropped = true
+2019-02-24 17:14:00.231969 Seq #9:  Time Received: 3093.628;  Packet Dropped = false;  ACK = 7
+2019-02-24 17:14:00.231988 Seq #10:  Time Received: 3093.668;  Packet Dropped = true
+2019-02-24 17:14:00.298745 Seq #0:  Time Received: 3160.388;  Packet Dropped = false;  ACK = 7
+2019-02-24 17:14:00.337334 Seq #8:  Time Received: 3199.003;  Packet Dropped = true
+2019-02-24 17:14:00.337381 Seq #9:  Time Received: 3199.047;  Packet Dropped = true
+2019-02-24 17:14:00.337414 Seq #10:  Time Received: 3199.076;  Packet Dropped = false;  ACK = 7
+2019-02-24 17:14:00.337439 Seq #0:  Time Received: 3199.112;  Packet Dropped = false;  ACK = 7
+2019-02-24 17:14:00.404364 Seq #1:  Time Received: 3266.006;  Packet Dropped = false;  ACK = 7
+2019-02-24 17:14:00.442971 Seq #8:  Time Received: 3304.616;  Packet Dropped = false;  ACK = 8
+2019-02-24 17:14:00.443012 Seq #9:  Time Received: 3304.683;  Packet Dropped = false;  ACK = 9
+2019-02-24 17:14:00.443028 Seq #10:  Time Received: 3304.709;  Packet Dropped = true
+2019-02-24 17:14:00.443046 Seq #0:  Time Received: 3304.722;  Packet Dropped = false;  ACK = 9
+2019-02-24 17:14:00.443059 Seq #1:  Time Received: 3304.741;  Packet Dropped = true
+2019-02-24 17:14:00.466258 Seq #10:  Time Received: 3327.929;  Packet Dropped = true
+2019-02-24 17:14:00.466322 Seq #0:  Time Received: 3327.982;  Packet Dropped = false;  ACK = 9
+2019-02-24 17:14:00.466340 Seq #1:  Time Received: 3328.021;  Packet Dropped = true
+2019-02-24 17:14:00.483584 Seq #10:  Time Received: 3345.217;  Packet Dropped = false;  ACK = 10
+2019-02-24 17:14:00.483616 Seq #0:  Time Received: 3345.295;  Packet Dropped = true
+2019-02-24 17:14:00.483629 Seq #1:  Time Received: 3345.311;  Packet Dropped = true
+2019-02-24 17:14:00.506903 Seq #2:  Time Received: 3368.568;  Packet Dropped = true
+2019-02-24 17:14:00.507218 Seq #0:  Time Received: 3368.859;  Packet Dropped = false;  ACK = 0
+2019-02-24 17:14:00.507241 Seq #1:  Time Received: 3368.921;  Packet Dropped = true
+2019-02-24 17:14:00.507252 Seq #2:  Time Received: 3368.934;  Packet Dropped = true
+2019-02-24 17:14:00.530124 Seq #1:  Time Received: 3391.771;  Packet Dropped = false;  ACK = 1
+2019-02-24 17:14:00.530179 Seq #2:  Time Received: 3391.850;  Packet Dropped = false;  ACK = 2
+2019-02-24 17:14:00.612449 Seq #3:  Time Received: 3474.095;  Packet Dropped = false;  ACK = 3
+2019-02-24 17:14:00.717904 Seq #4:  Time Received: 3579.534;  Packet Dropped = false;  ACK = 4
+2019-02-24 17:14:00.823263 Seq #5:  Time Received: 3684.930;  Packet Dropped = true
+2019-02-24 17:14:00.840715 Seq #5:  Time Received: 3702.389;  Packet Dropped = true
+2019-02-24 17:14:00.858214 Seq #5:  Time Received: 3719.884;  Packet Dropped = true
+2019-02-24 17:14:00.875668 Seq #5:  Time Received: 3737.317;  Packet Dropped = false;  ACK = 5
+2019-02-24 17:14:00.928618 Seq #6:  Time Received: 3790.255;  Packet Dropped = false;  ACK = 6
+2019-02-24 17:14:01.034332 Seq #7:  Time Received: 3895.959;  Packet Dropped = false;  ACK = 7
+2019-02-24 17:14:01.139681 Seq #8:  Time Received: 4001.349;  Packet Dropped = true
+2019-02-24 17:14:01.156938 Seq #8:  Time Received: 4018.572;  Packet Dropped = false;  ACK = 8
+2019-02-24 17:14:01.245156 Seq #9:  Time Received: 4106.824;  Packet Dropped = true
+2019-02-24 17:14:01.262388 Seq #9:  Time Received: 4124.061;  Packet Dropped = true
+2019-02-24 17:14:01.279536 Seq #9:  Time Received: 4141.185;  Packet Dropped = false;  ACK = 9
+2019-02-24 17:14:01.350544 Seq #10:  Time Received: 4212.152;  Packet Dropped = false;  ACK = 10
+2019-02-24 17:14:01.455933 Seq #0:  Time Received: 4317.601;  Packet Dropped = true
+2019-02-24 17:14:01.472898 Seq #0:  Time Received: 4334.549;  Packet Dropped = false;  ACK = 0
+2019-02-24 17:14:01.561440 Seq #1:  Time Received: 4423.068;  Packet Dropped = false;  ACK = 1
+2019-02-24 17:14:01.666825 Seq #2:  Time Received: 4528.452;  Packet Dropped = false;  ACK = 2
+2019-02-24 17:14:01.772209 Seq #3:  Time Received: 4633.879;  Packet Dropped = true
+2019-02-24 17:14:01.789148 Seq #3:  Time Received: 4650.782;  Packet Dropped = false;  ACK = 3
+2019-02-24 17:14:01.877643 Seq #4:  Time Received: 4739.284;  Packet Dropped = false;  ACK = 4
+2019-02-24 17:14:01.983034 Seq #5:  Time Received: 4844.702;  Packet Dropped = true
+2019-02-24 17:14:01.999992 Seq #5:  Time Received: 4861.620;  Packet Dropped = false;  ACK = 5
+2019-02-24 17:14:02.088490 Seq #6:  Time Received: 4950.158;  Packet Dropped = true
+2019-02-24 17:14:02.105306 Seq #6:  Time Received: 4966.979;  Packet Dropped = true
+2019-02-24 17:14:02.122369 Seq #6:  Time Received: 4984.015;  Packet Dropped = false;  ACK = 6
+2019-02-24 17:14:02.193917 Seq #7:  Time Received: 5055.558;  Packet Dropped = false;  ACK = 7
+2019-02-24 17:14:02.299277 Seq #8:  Time Received: 5160.933;  Packet Dropped = true
+2019-02-24 17:14:02.315961 Seq #8:  Time Received: 5177.592;  Packet Dropped = false;  ACK = 8
+2019-02-24 17:14:02.404716 Seq #9:  Time Received: 5266.384;  Packet Dropped = true
+2019-02-24 17:14:02.421483 Seq #9:  Time Received: 5283.118;  Packet Dropped = false;  ACK = 9
+2019-02-24 17:14:02.510204 Seq #10:  Time Received: 5371.838;  Packet Dropped = false;  ACK = 10
+2019-02-24 17:14:02.615651 Seq #0:  Time Received: 5477.278;  Packet Dropped = false;  ACK = 0
+2019-02-24 17:14:02.721027 Seq #1:  Time Received: 5582.643;  Packet Dropped = false;  ACK = 1
+2019-02-24 17:14:02.826371 Seq #2:  Time Received: 5688.039;  Packet Dropped = true
+2019-02-24 17:14:02.843067 Seq #2:  Time Received: 5704.700;  Packet Dropped = false;  ACK = 2
+2019-02-24 17:14:02.931885 Seq #3:  Time Received: 5793.512;  Packet Dropped = false;  ACK = 3
+2019-02-24 17:14:03.037397 Seq #4:  Time Received: 5899.024;  Packet Dropped = false;  ACK = 4
+2019-02-24 17:14:03.142769 Seq #5:  Time Received: 6004.397;  Packet Dropped = false;  ACK = 5
+2019-02-24 17:14:03.248208 Seq #6:  Time Received: 6109.862;  Packet Dropped = true
+2019-02-24 17:14:03.264831 Seq #6:  Time Received: 6126.479;  Packet Dropped = false;  ACK = 6
+2019-02-24 17:14:03.353552 Seq #7:  Time Received: 6215.221;  Packet Dropped = true
+2019-02-24 17:14:03.370189 Seq #7:  Time Received: 6231.824;  Packet Dropped = false;  ACK = 7
+2019-02-24 17:14:03.459051 Seq #8:  Time Received: 6320.680;  Packet Dropped = false;  ACK = 8
+2019-02-24 17:14:03.564489 Seq #9:  Time Received: 6426.116;  Packet Dropped = false;  ACK = 9
+2019-02-24 17:14:03.669838 Seq #10:  Time Received: 6531.479;  Packet Dropped = false;  ACK = 10
+2019-02-24 17:14:03.775279 Seq #0:  Time Received: 6636.946;  Packet Dropped = true
+2019-02-24 17:14:03.791785 Seq #0:  Time Received: 6653.419;  Packet Dropped = false;  ACK = 0
+2019-02-24 17:14:03.880717 Seq #1:  Time Received: 6742.344;  Packet Dropped = false;  ACK = 1
+2019-02-24 17:14:03.986202 Seq #2:  Time Received: 6847.841;  Packet Dropped = false;  ACK = 2
+2019-02-24 17:14:04.093420 Seq #3:  Time Received: 6955.086;  Packet Dropped = true
+2019-02-24 17:14:04.109856 Seq #3:  Time Received: 6971.500;  Packet Dropped = true
+2019-02-24 17:14:04.126340 Seq #3:  Time Received: 6988.007;  Packet Dropped = true
+2019-02-24 17:14:04.142781 Seq #3:  Time Received: 7004.425;  Packet Dropped = false;  ACK = 3
+2019-02-24 17:14:04.198859 Seq #4:  Time Received: 7060.487;  Packet Dropped = false;  ACK = 4
+2019-02-24 17:14:04.304172 Seq #5:  Time Received: 7165.813;  Packet Dropped = false;  ACK = 5
+2019-02-24 17:14:04.409494 Seq #6:  Time Received: 7271.160;  Packet Dropped = true
+2019-02-24 17:14:04.426120 Seq #6:  Time Received: 7287.766;  Packet Dropped = false;  ACK = 6
+2019-02-24 17:14:04.514862 Seq #7:  Time Received: 7376.513;  Packet Dropped = false;  ACK = 7
+2019-02-24 17:14:04.620432 Seq #8:  Time Received: 7482.060;  Packet Dropped = false;  ACK = 8
+2019-02-24 17:14:04.725844 Seq #9:  Time Received: 7587.471;  Packet Dropped = false;  ACK = 9
+2019-02-24 17:14:04.831348 Seq #10:  Time Received: 7693.004;  Packet Dropped = true
+2019-02-24 17:14:04.848028 Seq #10:  Time Received: 7709.678;  Packet Dropped = false;  ACK = 10
+2019-02-24 17:14:04.936761 Seq #0:  Time Received: 7798.419;  Packet Dropped = true
+2019-02-24 17:14:04.953486 Seq #0:  Time Received: 7815.140;  Packet Dropped = true
+2019-02-24 17:14:04.970137 Seq #0:  Time Received: 7831.811;  Packet Dropped = true
+2019-02-24 17:14:04.986791 Seq #0:  Time Received: 7848.439;  Packet Dropped = false;  ACK = 0
+2019-02-24 17:14:05.042273 Seq #1:  Time Received: 7903.928;  Packet Dropped = true
+2019-02-24 17:14:05.058941 Seq #1:  Time Received: 7920.596;  Packet Dropped = true
+2019-02-24 17:14:05.075447 Seq #1:  Time Received: 7937.094;  Packet Dropped = false;  ACK = 1
+2019-02-24 17:14:05.147650 Seq #2:  Time Received: 8009.281;  Packet Dropped = false;  ACK = 2
+2019-02-24 17:14:05.253029 Seq #3:  Time Received: 8114.698;  Packet Dropped = true
+2019-02-24 17:14:05.269490 Seq #3:  Time Received: 8131.125;  Packet Dropped = false;  ACK = 3
+2019-02-24 17:14:05.358465 Seq #4:  Time Received: 8220.094;  Packet Dropped = false;  ACK = 4
+2019-02-24 17:14:05.463839 Seq #5:  Time Received: 8325.508;  Packet Dropped = true
+2019-02-24 17:14:05.480309 Seq #5:  Time Received: 8341.944;  Packet Dropped = false;  ACK = 5
+2019-02-24 17:14:05.569297 Seq #6:  Time Received: 8430.965;  Packet Dropped = true
+2019-02-24 17:14:05.585738 Seq #6:  Time Received: 8447.385;  Packet Dropped = false;  ACK = 6
+2019-02-24 17:14:05.674684 Seq #7:  Time Received: 8536.353;  Packet Dropped = true
+2019-02-24 17:14:05.691136 Seq #7:  Time Received: 8552.771;  Packet Dropped = false;  ACK = 7
+2019-02-24 17:14:05.780001 Seq #8:  Time Received: 8641.672;  Packet Dropped = true
+2019-02-24 17:14:05.796414 Seq #8:  Time Received: 8658.075;  Packet Dropped = true
+2019-02-24 17:14:05.812677 Seq #8:  Time Received: 8674.349;  Packet Dropped = true
+2019-02-24 17:14:05.829142 Seq #8:  Time Received: 8690.774;  Packet Dropped = false;  ACK = 8
+2019-02-24 17:14:05.885475 Seq #9:  Time Received: 8747.146;  Packet Dropped = true
+2019-02-24 17:14:05.901922 Seq #9:  Time Received: 8763.572;  Packet Dropped = false;  ACK = 9
+2019-02-24 17:14:05.990900 Seq #10:  Time Received: 8852.571;  Packet Dropped = true
+2019-02-24 17:14:06.007340 Seq #10:  Time Received: 8868.975;  Packet Dropped = false;  ACK = 10
+2019-02-24 17:14:06.096341 Seq #0:  Time Received: 8958.009;  Packet Dropped = true
+2019-02-24 17:14:06.112776 Seq #0:  Time Received: 8974.405;  Packet Dropped = false;  ACK = 0
+2019-02-24 17:14:06.201783 Seq #1:  Time Received: 9063.424;  Packet Dropped = false;  ACK = 1
+2019-02-24 17:14:06.307183 Seq #2:  Time Received: 9168.807;  Packet Dropped = false;  ACK = 2
+2019-02-24 17:14:06.412655 Seq #3:  Time Received: 9274.323;  Packet Dropped = true
+2019-02-24 17:14:06.428945 Seq #3:  Time Received: 9290.619;  Packet Dropped = true
+2019-02-24 17:14:06.445429 Seq #3:  Time Received: 9307.062;  Packet Dropped = false;  ACK = 3
+2019-02-24 17:14:06.518111 Seq #4:  Time Received: 9379.756;  Packet Dropped = false;  ACK = 4
+2019-02-24 17:14:06.623567 Seq #5:  Time Received: 9485.183;  Packet Dropped = false;  ACK = 5
+2019-02-24 17:14:06.729018 Seq #6:  Time Received: 9590.686;  Packet Dropped = true
+2019-02-24 17:14:06.745484 Seq #6:  Time Received: 9607.118;  Packet Dropped = false;  ACK = 6
+2019-02-24 17:14:06.834232 Seq #7:  Time Received: 9695.900;  Packet Dropped = true
+2019-02-24 17:14:06.850803 Seq #7:  Time Received: 9712.451;  Packet Dropped = false;  ACK = 7
+2019-02-24 17:14:06.939769 Seq #8:  Time Received: 9801.410;  Packet Dropped = false;  ACK = 8
+2019-02-24 17:14:07.045187 Seq #9:  Time Received: 9906.816;  Packet Dropped = false;  ACK = 9
+2019-02-24 17:14:07.150657 Seq #10:  Time Received: 10012.291;  Packet Dropped = false;  ACK = 10
+2019-02-24 17:14:07.256189 Seq #0:  Time Received: 10117.816;  Packet Dropped = false;  ACK = 0
+2019-02-24 17:14:07.361594 Seq #1:  Time Received: 10223.248;  Packet Dropped = true
+2019-02-24 17:14:07.378093 Seq #1:  Time Received: 10239.752;  Packet Dropped = true
+2019-02-24 17:14:07.394641 Seq #1:  Time Received: 10256.275;  Packet Dropped = false;  ACK = 1
+2019-02-24 17:14:07.467071 Seq #2:  Time Received: 10328.698;  Packet Dropped = false;  ACK = 2
+2019-02-24 17:14:07.572375 Seq #3:  Time Received: 10434.018;  Packet Dropped = false;  ACK = 3
+2019-02-24 17:14:07.677813 Seq #4:  Time Received: 10539.455;  Packet Dropped = false;  ACK = 4
+2019-02-24 17:14:07.783163 Seq #5:  Time Received: 10644.819;  Packet Dropped = true
+2019-02-24 17:14:07.799578 Seq #5:  Time Received: 10661.239;  Packet Dropped = true
+2019-02-24 17:14:07.815932 Seq #5:  Time Received: 10677.580;  Packet Dropped = false;  ACK = 5
+2019-02-24 17:14:07.888548 Seq #6:  Time Received: 10750.219;  Packet Dropped = true
+2019-02-24 17:14:07.904959 Seq #6:  Time Received: 10766.595;  Packet Dropped = false;  ACK = 6
+2019-02-24 17:14:07.994058 Seq #7:  Time Received: 10855.686;  Packet Dropped = false;  ACK = 7
+2019-02-24 17:14:08.099506 Seq #8:  Time Received: 10961.133;  Packet Dropped = false;  ACK = 8
+2019-02-24 17:14:08.204900 Seq #9:  Time Received: 11066.565;  Packet Dropped = true
+2019-02-24 17:14:08.221500 Seq #9:  Time Received: 11083.138;  Packet Dropped = false;  ACK = 9
+2019-02-24 17:14:08.312019 Seq #10:  Time Received: 11173.686;  Packet Dropped = true
+2019-02-24 17:14:08.328617 Seq #10:  Time Received: 11190.281;  Packet Dropped = true
+2019-02-24 17:14:08.345095 Seq #10:  Time Received: 11206.739;  Packet Dropped = false;  ACK = 10
+2019-02-24 17:14:08.416385 Seq #0:  Time Received: 11278.051;  Packet Dropped = true
+2019-02-24 17:14:08.432882 Seq #0:  Time Received: 11294.551;  Packet Dropped = true
+2019-02-24 17:14:08.449392 Seq #0:  Time Received: 11311.061;  Packet Dropped = true
+2019-02-24 17:14:08.465908 Seq #0:  Time Received: 11327.576;  Packet Dropped = true
+2019-02-24 17:14:08.482430 Seq #0:  Time Received: 11344.074;  Packet Dropped = false;  ACK = 0
+2019-02-24 17:14:08.521744 Seq #1:  Time Received: 11383.388;  Packet Dropped = false;  ACK = 1
+2019-02-24 17:14:08.627200 Seq #2:  Time Received: 11488.848;  Packet Dropped = false;  ACK = 2
+2019-02-24 17:14:08.732529 Seq #3:  Time Received: 11594.198;  Packet Dropped = true
+2019-02-24 17:14:08.749018 Seq #3:  Time Received: 11610.665;  Packet Dropped = false;  ACK = 3
+2019-02-24 17:14:08.837859 Seq #4:  Time Received: 11699.501;  Packet Dropped = false;  ACK = 4
+2019-02-24 17:14:08.943204 Seq #5:  Time Received: 11804.863;  Packet Dropped = true
+2019-02-24 17:14:08.959801 Seq #5:  Time Received: 11821.476;  Packet Dropped = true
+2019-02-24 17:14:08.976439 Seq #5:  Time Received: 11838.078;  Packet Dropped = false;  ACK = 5
+2019-02-24 17:14:09.048431 Seq #6:  Time Received: 11910.092;  Packet Dropped = true
+2019-02-24 17:14:09.064921 Seq #6:  Time Received: 11926.593;  Packet Dropped = true
+2019-02-24 17:14:09.081559 Seq #6:  Time Received: 11943.229;  Packet Dropped = true
+2019-02-24 17:14:09.098150 Seq #6:  Time Received: 11959.792;  Packet Dropped = false;  ACK = 6
+2019-02-24 17:14:09.153900 Seq #7:  Time Received: 12015.564;  Packet Dropped = true
+2019-02-24 17:14:09.172167 Seq #7:  Time Received: 12033.835;  Packet Dropped = true
+2019-02-24 17:14:09.188715 Seq #7:  Time Received: 12050.389;  Packet Dropped = true
+2019-02-24 17:14:09.205306 Seq #7:  Time Received: 12066.980;  Packet Dropped = true
+2019-02-24 17:14:09.221898 Seq #7:  Time Received: 12083.573;  Packet Dropped = true
+2019-02-24 17:14:09.238489 Seq #7:  Time Received: 12100.165;  Packet Dropped = true
+2019-02-24 17:14:09.255191 Seq #7:  Time Received: 12116.868;  Packet Dropped = true
+2019-02-24 17:14:09.255249 Seq #8:  Time Received: 12116.911;  Packet Dropped = false;  ACK = 6
+2019-02-24 17:14:09.271828 Seq #7:  Time Received: 12133.490;  Packet Dropped = false;  ACK = 7
+2019-02-24 17:14:09.271890 Seq #8:  Time Received: 12133.569;  Packet Dropped = true
+2019-02-24 17:14:09.293734 Seq #8:  Time Received: 12155.407;  Packet Dropped = true
+2019-02-24 17:14:09.310286 Seq #8:  Time Received: 12171.929;  Packet Dropped = false;  ACK = 8
+2019-02-24 17:14:09.361390 Seq #9:  Time Received: 12223.059;  Packet Dropped = true
+2019-02-24 17:14:09.377908 Seq #9:  Time Received: 12239.582;  Packet Dropped = true
+2019-02-24 17:14:09.394442 Seq #9:  Time Received: 12256.112;  Packet Dropped = true
+2019-02-24 17:14:09.411016 Seq #9:  Time Received: 12272.688;  Packet Dropped = true
+2019-02-24 17:14:09.427540 Seq #9:  Time Received: 12289.213;  Packet Dropped = true
+2019-02-24 17:14:09.444329 Seq #9:  Time Received: 12305.956;  Packet Dropped = false;  ACK = 9
+2019-02-24 17:14:09.466627 Seq #10:  Time Received: 12328.299;  Packet Dropped = true
+2019-02-24 17:14:09.483222 Seq #10:  Time Received: 12344.865;  Packet Dropped = false;  ACK = 10
+2019-02-24 17:14:09.572142 Seq #0:  Time Received: 12433.790;  Packet Dropped = false;  ACK = 0

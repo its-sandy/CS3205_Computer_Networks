@@ -1,0 +1,421 @@
+Namespace(bufferSize=10, debug=True, maxPackets=100, packetGenRate=10, packetLength=100, receiverIP='127.0.0.1', receiverPortNo=12345, timeoutTime=0.1, verbose=True, windowSize=5)
+socket connection established
+
+ACK_RECEIVER thread started
+
+PACKET_GENERATOR started
+
+2019-02-24 17:13:59.138183 Seq #0: packet sent
+2019-02-24 17:13:59.243153 Seq #0: Timeout
+2019-02-24 17:13:59.243546 Seq #1: packet sent
+2019-02-24 17:13:59.243971 Seq #0: packet sent
+2019-02-24 17:13:59.244012 Seq #1: packet sent
+2019-02-24 17:13:59.348772 Seq #0: Timeout
+2019-02-24 17:13:59.349281 Seq #0: packet sent
+2019-02-24 17:13:59.349618 Seq #1: packet sent
+2019-02-24 17:13:59.349692 Seq #2: packet sent
+2019-02-24 17:13:59.354940 Seq #0:  Time Generated: 105.828 ;  RTT: 5.645 ;  Number of Attempts: 3
+2019-02-24 17:13:59.355397 Seq #1:  Time Generated: 211.442 ;  RTT: 5.777 ;  Number of Attempts: 3
+2019-02-24 17:13:59.455088 Seq #3: packet sent
+2019-02-24 17:13:59.460724 Seq #2: Timeout
+2019-02-24 17:13:59.460922 Seq #2: packet sent
+2019-02-24 17:13:59.460978 Seq #3: packet sent
+2019-02-24 17:13:59.466288 Seq #2:  Time Generated: 317.485 ;  RTT: 5.364 ;  Number of Attempts: 2
+2019-02-24 17:13:59.560494 Seq #4: packet sent
+2019-02-24 17:13:59.571636 Seq #3: Timeout
+2019-02-24 17:13:59.571898 Seq #3: packet sent
+2019-02-24 17:13:59.571957 Seq #4: packet sent
+2019-02-24 17:13:59.665923 Seq #5: packet sent
+2019-02-24 17:13:59.677066 Seq #3: Timeout
+2019-02-24 17:13:59.677505 Seq #3: packet sent
+2019-02-24 17:13:59.677562 Seq #4: packet sent
+2019-02-24 17:13:59.677600 Seq #5: packet sent
+2019-02-24 17:13:59.682784 Seq #3:  Time Generated: 423.007 ;  RTT: 5.277 ;  Number of Attempts: 4
+2019-02-24 17:13:59.688171 Seq #4:  Time Generated: 528.415 ;  RTT: 10.607 ;  Number of Attempts: 3
+2019-02-24 17:13:59.771295 Seq #6: packet sent
+2019-02-24 17:13:59.793452 Seq #5: Timeout
+2019-02-24 17:13:59.793680 Seq #5: packet sent
+2019-02-24 17:13:59.793742 Seq #6: packet sent
+2019-02-24 17:13:59.798970 Seq #5:  Time Generated: 633.829 ;  RTT: 5.288 ;  Number of Attempts: 3
+2019-02-24 17:13:59.876746 Seq #7: packet sent
+2019-02-24 17:13:59.904297 Seq #6: Timeout
+2019-02-24 17:13:59.904568 Seq #6: packet sent
+2019-02-24 17:13:59.904621 Seq #7: packet sent
+2019-02-24 17:13:59.982176 Seq #8: packet sent
+2019-02-24 17:14:00.009738 Seq #6: Timeout
+2019-02-24 17:14:00.010044 Seq #6: packet sent
+2019-02-24 17:14:00.010114 Seq #7: packet sent
+2019-02-24 17:14:00.010142 Seq #8: packet sent
+2019-02-24 17:14:00.087648 Seq #9: packet sent
+2019-02-24 17:14:00.115203 Seq #6: Timeout
+2019-02-24 17:14:00.115488 Seq #6: packet sent
+2019-02-24 17:14:00.115545 Seq #7: packet sent
+2019-02-24 17:14:00.115581 Seq #8: packet sent
+2019-02-24 17:14:00.115607 Seq #9: packet sent
+2019-02-24 17:14:00.120790 Seq #6:  Time Generated: 739.220 ;  RTT: 5.300 ;  Number of Attempts: 5
+2019-02-24 17:14:00.126018 Seq #7:  Time Generated: 844.671 ;  RTT: 10.472 ;  Number of Attempts: 4
+2019-02-24 17:14:00.193229 Seq #10: packet sent
+2019-02-24 17:14:00.231444 Seq #8: Timeout
+2019-02-24 17:14:00.231820 Seq #8: packet sent
+2019-02-24 17:14:00.231878 Seq #9: packet sent
+2019-02-24 17:14:00.231898 Seq #10: packet sent
+2019-02-24 17:14:00.298652 Seq #0: packet sent
+2019-02-24 17:14:00.336886 Seq #8: Timeout
+2019-02-24 17:14:00.337260 Seq #8: packet sent
+2019-02-24 17:14:00.337313 Seq #9: packet sent
+2019-02-24 17:14:00.337334 Seq #10: packet sent
+2019-02-24 17:14:00.337350 Seq #0: packet sent
+2019-02-24 17:14:00.404207 Seq #1: packet sent
+2019-02-24 17:14:00.442347 Seq #8: Timeout
+2019-02-24 17:14:00.442827 Seq #8: packet sent
+2019-02-24 17:14:00.442917 Seq #9: packet sent
+2019-02-24 17:14:00.442937 Seq #10: packet sent
+2019-02-24 17:14:00.442953 Seq #0: packet sent
+2019-02-24 17:14:00.442969 Seq #1: packet sent
+2019-02-24 17:14:00.443027 Seq #8:  Time Generated: 950.099 ;  RTT: 0.201 ;  Number of Attempts: 6
+2019-02-24 17:14:00.448417 Seq #9:  Time Generated: 1055.549 ;  RTT: 5.497 ;  Number of Attempts: 5
+2019-02-24 17:14:00.465687 Seq #10: Timeout
+2019-02-24 17:14:00.466173 Seq #10: packet sent
+2019-02-24 17:14:00.466230 Seq #0: packet sent
+2019-02-24 17:14:00.466250 Seq #1: packet sent
+2019-02-24 17:14:00.483161 Seq #10: Timeout
+2019-02-24 17:14:00.483439 Seq #10: packet sent
+2019-02-24 17:14:00.483522 Seq #0: packet sent
+2019-02-24 17:14:00.483574 Seq #1: packet sent
+2019-02-24 17:14:00.489187 Seq #10:  Time Generated: 1161.127 ;  RTT: 5.758 ;  Number of Attempts: 6
+2019-02-24 17:14:00.506681 Seq #0: Timeout
+2019-02-24 17:14:00.506787 Seq #2: packet sent
+2019-02-24 17:14:00.507098 Seq #0: packet sent
+2019-02-24 17:14:00.507166 Seq #1: packet sent
+2019-02-24 17:14:00.507188 Seq #2: packet sent
+2019-02-24 17:14:00.512355 Seq #0:  Time Generated: 1266.552 ;  RTT: 5.255 ;  Number of Attempts: 6
+2019-02-24 17:14:00.529534 Seq #1: Timeout
+2019-02-24 17:14:00.530011 Seq #1: packet sent
+2019-02-24 17:14:00.530072 Seq #2: packet sent
+2019-02-24 17:14:00.535261 Seq #1:  Time Generated: 1372.110 ;  RTT: 5.248 ;  Number of Attempts: 6
+2019-02-24 17:14:00.540633 Seq #2:  Time Generated: 1474.602 ;  RTT: 10.558 ;  Number of Attempts: 3
+2019-02-24 17:14:00.612332 Seq #3: packet sent
+2019-02-24 17:14:00.617574 Seq #3:  Time Generated: 1580.018 ;  RTT: 5.241 ;  Number of Attempts: 1
+2019-02-24 17:14:00.717761 Seq #4: packet sent
+2019-02-24 17:14:00.723034 Seq #4:  Time Generated: 1685.445 ;  RTT: 5.273 ;  Number of Attempts: 1
+2019-02-24 17:14:00.823102 Seq #5: packet sent
+2019-02-24 17:14:00.840371 Seq #5: Timeout
+2019-02-24 17:14:00.840603 Seq #5: packet sent
+2019-02-24 17:14:00.857889 Seq #5: Timeout
+2019-02-24 17:14:00.858086 Seq #5: packet sent
+2019-02-24 17:14:00.875343 Seq #5: Timeout
+2019-02-24 17:14:00.875544 Seq #5: packet sent
+2019-02-24 17:14:00.880836 Seq #5:  Time Generated: 1790.849 ;  RTT: 5.287 ;  Number of Attempts: 4
+2019-02-24 17:14:00.928458 Seq #6: packet sent
+2019-02-24 17:14:00.933751 Seq #6:  Time Generated: 1896.259 ;  RTT: 5.289 ;  Number of Attempts: 1
+2019-02-24 17:14:01.034177 Seq #7: packet sent
+2019-02-24 17:14:01.039511 Seq #7:  Time Generated: 2001.652 ;  RTT: 5.332 ;  Number of Attempts: 1
+2019-02-24 17:14:01.139568 Seq #8: packet sent
+2019-02-24 17:14:01.156526 Seq #8: Timeout
+2019-02-24 17:14:01.156802 Seq #8: packet sent
+2019-02-24 17:14:01.162106 Seq #8:  Time Generated: 2107.227 ;  RTT: 5.301 ;  Number of Attempts: 2
+2019-02-24 17:14:01.245026 Seq #9: packet sent
+2019-02-24 17:14:01.261991 Seq #9: Timeout
+2019-02-24 17:14:01.262278 Seq #9: packet sent
+2019-02-24 17:14:01.279247 Seq #9: Timeout
+2019-02-24 17:14:01.279443 Seq #9: packet sent
+2019-02-24 17:14:01.284680 Seq #9:  Time Generated: 2212.690 ;  RTT: 5.234 ;  Number of Attempts: 3
+2019-02-24 17:14:01.350342 Seq #10: packet sent
+2019-02-24 17:14:01.355677 Seq #10:  Time Generated: 2318.096 ;  RTT: 5.333 ;  Number of Attempts: 1
+2019-02-24 17:14:01.455782 Seq #0: packet sent
+2019-02-24 17:14:01.472653 Seq #0: Timeout
+2019-02-24 17:14:01.472833 Seq #0: packet sent
+2019-02-24 17:14:01.478042 Seq #0:  Time Generated: 2423.529 ;  RTT: 5.206 ;  Number of Attempts: 2
+2019-02-24 17:14:01.561260 Seq #1: packet sent
+2019-02-24 17:14:01.566601 Seq #1:  Time Generated: 2528.998 ;  RTT: 5.339 ;  Number of Attempts: 1
+2019-02-24 17:14:01.666640 Seq #2: packet sent
+2019-02-24 17:14:01.671973 Seq #2:  Time Generated: 2634.412 ;  RTT: 5.331 ;  Number of Attempts: 1
+2019-02-24 17:14:01.772077 Seq #3: packet sent
+2019-02-24 17:14:01.788801 Seq #3: Timeout
+2019-02-24 17:14:01.788979 Seq #3: packet sent
+2019-02-24 17:14:01.794328 Seq #3:  Time Generated: 2739.814 ;  RTT: 5.347 ;  Number of Attempts: 2
+2019-02-24 17:14:01.877473 Seq #4: packet sent
+2019-02-24 17:14:01.882804 Seq #4:  Time Generated: 2845.233 ;  RTT: 5.345 ;  Number of Attempts: 1
+2019-02-24 17:14:01.982908 Seq #5: packet sent
+2019-02-24 17:14:01.999587 Seq #5: Timeout
+2019-02-24 17:14:01.999873 Seq #5: packet sent
+2019-02-24 17:14:02.005105 Seq #5:  Time Generated: 2950.652 ;  RTT: 5.229 ;  Number of Attempts: 2
+2019-02-24 17:14:02.088376 Seq #6: packet sent
+2019-02-24 17:14:02.104908 Seq #6: Timeout
+2019-02-24 17:14:02.105187 Seq #6: packet sent
+2019-02-24 17:14:02.121829 Seq #6: Timeout
+2019-02-24 17:14:02.122062 Seq #6: packet sent
+2019-02-24 17:14:02.127519 Seq #6:  Time Generated: 3056.068 ;  RTT: 5.453 ;  Number of Attempts: 3
+2019-02-24 17:14:02.193741 Seq #7: packet sent
+2019-02-24 17:14:02.199074 Seq #7:  Time Generated: 3161.466 ;  RTT: 5.347 ;  Number of Attempts: 1
+2019-02-24 17:14:02.299131 Seq #8: packet sent
+2019-02-24 17:14:02.315670 Seq #8: Timeout
+2019-02-24 17:14:02.315851 Seq #8: packet sent
+2019-02-24 17:14:02.321069 Seq #8:  Time Generated: 3266.887 ;  RTT: 5.216 ;  Number of Attempts: 2
+2019-02-24 17:14:02.404576 Seq #9: packet sent
+2019-02-24 17:14:02.421111 Seq #9: Timeout
+2019-02-24 17:14:02.421345 Seq #9: packet sent
+2019-02-24 17:14:02.426693 Seq #9:  Time Generated: 3372.328 ;  RTT: 5.343 ;  Number of Attempts: 2
+2019-02-24 17:14:02.510057 Seq #10: packet sent
+2019-02-24 17:14:02.515363 Seq #10:  Time Generated: 3477.738 ;  RTT: 5.306 ;  Number of Attempts: 1
+2019-02-24 17:14:02.615460 Seq #0: packet sent
+2019-02-24 17:14:02.620803 Seq #0:  Time Generated: 3583.179 ;  RTT: 5.355 ;  Number of Attempts: 1
+2019-02-24 17:14:02.720838 Seq #1: packet sent
+2019-02-24 17:14:02.726195 Seq #1:  Time Generated: 3688.599 ;  RTT: 5.356 ;  Number of Attempts: 1
+2019-02-24 17:14:02.826236 Seq #2: packet sent
+2019-02-24 17:14:02.842725 Seq #2: Timeout
+2019-02-24 17:14:02.842916 Seq #2: packet sent
+2019-02-24 17:14:02.848212 Seq #2:  Time Generated: 3794.003 ;  RTT: 5.294 ;  Number of Attempts: 2
+2019-02-24 17:14:02.931703 Seq #3: packet sent
+2019-02-24 17:14:02.937049 Seq #3:  Time Generated: 3899.435 ;  RTT: 5.345 ;  Number of Attempts: 1
+2019-02-24 17:14:03.037193 Seq #4: packet sent
+2019-02-24 17:14:03.042568 Seq #4:  Time Generated: 4004.894 ;  RTT: 5.373 ;  Number of Attempts: 1
+2019-02-24 17:14:03.142593 Seq #5: packet sent
+2019-02-24 17:14:03.148032 Seq #5:  Time Generated: 4110.333 ;  RTT: 5.436 ;  Number of Attempts: 1
+2019-02-24 17:14:03.248080 Seq #6: packet sent
+2019-02-24 17:14:03.264418 Seq #6: Timeout
+2019-02-24 17:14:03.264686 Seq #6: packet sent
+2019-02-24 17:14:03.269986 Seq #6:  Time Generated: 4215.734 ;  RTT: 5.297 ;  Number of Attempts: 2
+2019-02-24 17:14:03.353409 Seq #7: packet sent
+2019-02-24 17:14:03.369804 Seq #7: Timeout
+2019-02-24 17:14:03.370037 Seq #7: packet sent
+2019-02-24 17:14:03.375334 Seq #7:  Time Generated: 4321.146 ;  RTT: 5.279 ;  Number of Attempts: 2
+2019-02-24 17:14:03.458904 Seq #8: packet sent
+2019-02-24 17:14:03.464226 Seq #8:  Time Generated: 4426.584 ;  RTT: 5.321 ;  Number of Attempts: 1
+2019-02-24 17:14:03.564334 Seq #9: packet sent
+2019-02-24 17:14:03.569640 Seq #9:  Time Generated: 4532.009 ;  RTT: 5.305 ;  Number of Attempts: 1
+2019-02-24 17:14:03.669707 Seq #10: packet sent
+2019-02-24 17:14:03.674988 Seq #10:  Time Generated: 4637.416 ;  RTT: 5.280 ;  Number of Attempts: 1
+2019-02-24 17:14:03.775066 Seq #0: packet sent
+2019-02-24 17:14:03.791384 Seq #0: Timeout
+2019-02-24 17:14:03.791646 Seq #0: packet sent
+2019-02-24 17:14:03.796942 Seq #0:  Time Generated: 4742.833 ;  RTT: 5.293 ;  Number of Attempts: 2
+2019-02-24 17:14:03.880550 Seq #1: packet sent
+2019-02-24 17:14:03.885872 Seq #1:  Time Generated: 4848.260 ;  RTT: 5.320 ;  Number of Attempts: 1
+2019-02-24 17:14:03.986017 Seq #2: packet sent
+2019-02-24 17:14:03.991394 Seq #2:  Time Generated: 4953.718 ;  RTT: 5.376 ;  Number of Attempts: 1
+2019-02-24 17:14:04.093325 Seq #3: packet sent
+2019-02-24 17:14:04.109576 Seq #3: Timeout
+2019-02-24 17:14:04.109765 Seq #3: packet sent
+2019-02-24 17:14:04.126035 Seq #3: Timeout
+2019-02-24 17:14:04.126257 Seq #3: packet sent
+2019-02-24 17:14:04.142515 Seq #3: Timeout
+2019-02-24 17:14:04.142689 Seq #3: packet sent
+2019-02-24 17:14:04.147924 Seq #3:  Time Generated: 5061.106 ;  RTT: 5.232 ;  Number of Attempts: 4
+2019-02-24 17:14:04.198699 Seq #4: packet sent
+2019-02-24 17:14:04.204009 Seq #4:  Time Generated: 5166.468 ;  RTT: 5.309 ;  Number of Attempts: 1
+2019-02-24 17:14:04.304055 Seq #5: packet sent
+2019-02-24 17:14:04.309331 Seq #5:  Time Generated: 5271.841 ;  RTT: 5.275 ;  Number of Attempts: 1
+2019-02-24 17:14:04.409404 Seq #6: packet sent
+2019-02-24 17:14:04.425695 Seq #6: Timeout
+2019-02-24 17:14:04.426006 Seq #6: packet sent
+2019-02-24 17:14:04.431296 Seq #6:  Time Generated: 5377.202 ;  RTT: 5.289 ;  Number of Attempts: 2
+2019-02-24 17:14:04.514779 Seq #7: packet sent
+2019-02-24 17:14:04.520038 Seq #7:  Time Generated: 5482.538 ;  RTT: 5.258 ;  Number of Attempts: 1
+2019-02-24 17:14:04.620273 Seq #8: packet sent
+2019-02-24 17:14:04.626521 Seq #8:  Time Generated: 5587.920 ;  RTT: 6.248 ;  Number of Attempts: 1
+2019-02-24 17:14:04.725692 Seq #9: packet sent
+2019-02-24 17:14:04.730956 Seq #9:  Time Generated: 5693.324 ;  RTT: 5.264 ;  Number of Attempts: 1
+2019-02-24 17:14:04.831228 Seq #10: packet sent
+2019-02-24 17:14:04.847412 Seq #10: Timeout
+2019-02-24 17:14:04.847924 Seq #10: packet sent
+2019-02-24 17:14:04.853156 Seq #10:  Time Generated: 5798.892 ;  RTT: 5.230 ;  Number of Attempts: 2
+2019-02-24 17:14:04.936652 Seq #0: packet sent
+2019-02-24 17:14:04.952838 Seq #0: Timeout
+2019-02-24 17:14:04.953365 Seq #0: packet sent
+2019-02-24 17:14:04.969558 Seq #0: Timeout
+2019-02-24 17:14:04.970052 Seq #0: packet sent
+2019-02-24 17:14:04.986201 Seq #0: Timeout
+2019-02-24 17:14:04.986689 Seq #0: packet sent
+2019-02-24 17:14:04.991903 Seq #0:  Time Generated: 5904.322 ;  RTT: 5.213 ;  Number of Attempts: 4
+2019-02-24 17:14:05.042147 Seq #1: packet sent
+2019-02-24 17:14:05.058291 Seq #1: Timeout
+2019-02-24 17:14:05.058825 Seq #1: packet sent
+2019-02-24 17:14:05.074985 Seq #1: Timeout
+2019-02-24 17:14:05.075337 Seq #1: packet sent
+2019-02-24 17:14:05.080562 Seq #1:  Time Generated: 6009.758 ;  RTT: 5.224 ;  Number of Attempts: 3
+2019-02-24 17:14:05.147481 Seq #2: packet sent
+2019-02-24 17:14:05.152772 Seq #2:  Time Generated: 6115.186 ;  RTT: 5.290 ;  Number of Attempts: 1
+2019-02-24 17:14:05.252894 Seq #3: packet sent
+2019-02-24 17:14:05.269034 Seq #3: Timeout
+2019-02-24 17:14:05.269345 Seq #3: packet sent
+2019-02-24 17:14:05.274641 Seq #3:  Time Generated: 6220.588 ;  RTT: 5.296 ;  Number of Attempts: 2
+2019-02-24 17:14:05.358317 Seq #4: packet sent
+2019-02-24 17:14:05.363577 Seq #4:  Time Generated: 6325.992 ;  RTT: 5.259 ;  Number of Attempts: 1
+2019-02-24 17:14:05.463711 Seq #5: packet sent
+2019-02-24 17:14:05.479911 Seq #5: Timeout
+2019-02-24 17:14:05.480171 Seq #5: packet sent
+2019-02-24 17:14:05.485419 Seq #5:  Time Generated: 6431.413 ;  RTT: 5.246 ;  Number of Attempts: 2
+2019-02-24 17:14:05.569184 Seq #6: packet sent
+2019-02-24 17:14:05.585326 Seq #6: Timeout
+2019-02-24 17:14:05.585605 Seq #6: packet sent
+2019-02-24 17:14:05.590851 Seq #6:  Time Generated: 6536.852 ;  RTT: 5.245 ;  Number of Attempts: 2
+2019-02-24 17:14:05.674557 Seq #7: packet sent
+2019-02-24 17:14:05.690742 Seq #7: Timeout
+2019-02-24 17:14:05.690973 Seq #7: packet sent
+2019-02-24 17:14:05.696247 Seq #7:  Time Generated: 6642.270 ;  RTT: 5.271 ;  Number of Attempts: 2
+2019-02-24 17:14:05.779894 Seq #8: packet sent
+2019-02-24 17:14:05.796061 Seq #8: Timeout
+2019-02-24 17:14:05.796302 Seq #8: packet sent
+2019-02-24 17:14:05.812419 Seq #8: Timeout
+2019-02-24 17:14:05.812608 Seq #8: packet sent
+2019-02-24 17:14:05.828822 Seq #8: Timeout
+2019-02-24 17:14:05.829001 Seq #8: packet sent
+2019-02-24 17:14:05.834249 Seq #8:  Time Generated: 6747.635 ;  RTT: 5.246 ;  Number of Attempts: 4
+2019-02-24 17:14:05.885335 Seq #9: packet sent
+2019-02-24 17:14:05.901515 Seq #9: Timeout
+2019-02-24 17:14:05.901805 Seq #9: packet sent
+2019-02-24 17:14:05.907047 Seq #9:  Time Generated: 6853.050 ;  RTT: 5.254 ;  Number of Attempts: 2
+2019-02-24 17:14:05.990803 Seq #10: packet sent
+2019-02-24 17:14:06.006906 Seq #10: Timeout
+2019-02-24 17:14:06.007185 Seq #10: packet sent
+2019-02-24 17:14:06.012461 Seq #10:  Time Generated: 6958.499 ;  RTT: 5.274 ;  Number of Attempts: 2
+2019-02-24 17:14:06.096208 Seq #0: packet sent
+2019-02-24 17:14:06.112366 Seq #0: Timeout
+2019-02-24 17:14:06.112601 Seq #0: packet sent
+2019-02-24 17:14:06.117878 Seq #0:  Time Generated: 7063.924 ;  RTT: 5.276 ;  Number of Attempts: 2
+2019-02-24 17:14:06.201615 Seq #1: packet sent
+2019-02-24 17:14:06.206909 Seq #1:  Time Generated: 7169.350 ;  RTT: 5.294 ;  Number of Attempts: 1
+2019-02-24 17:14:06.307052 Seq #2: packet sent
+2019-02-24 17:14:06.312283 Seq #2:  Time Generated: 7274.806 ;  RTT: 5.230 ;  Number of Attempts: 1
+2019-02-24 17:14:06.412513 Seq #3: packet sent
+2019-02-24 17:14:06.428682 Seq #3: Timeout
+2019-02-24 17:14:06.428888 Seq #3: packet sent
+2019-02-24 17:14:06.445036 Seq #3: Timeout
+2019-02-24 17:14:06.445256 Seq #3: packet sent
+2019-02-24 17:14:06.450536 Seq #3:  Time Generated: 7380.263 ;  RTT: 5.278 ;  Number of Attempts: 3
+2019-02-24 17:14:06.517989 Seq #4: packet sent
+2019-02-24 17:14:06.528228 Seq #4:  Time Generated: 7485.703 ;  RTT: 10.238 ;  Number of Attempts: 1
+2019-02-24 17:14:06.623377 Seq #5: packet sent
+2019-02-24 17:14:06.628701 Seq #5:  Time Generated: 7591.128 ;  RTT: 5.323 ;  Number of Attempts: 1
+2019-02-24 17:14:06.728892 Seq #6: packet sent
+2019-02-24 17:14:06.745037 Seq #6: Timeout
+2019-02-24 17:14:06.745364 Seq #6: packet sent
+2019-02-24 17:14:06.750604 Seq #6:  Time Generated: 7696.544 ;  RTT: 5.238 ;  Number of Attempts: 2
+2019-02-24 17:14:06.834123 Seq #7: packet sent
+2019-02-24 17:14:06.850422 Seq #7: Timeout
+2019-02-24 17:14:06.850656 Seq #7: packet sent
+2019-02-24 17:14:06.855911 Seq #7:  Time Generated: 7801.901 ;  RTT: 5.254 ;  Number of Attempts: 2
+2019-02-24 17:14:06.939630 Seq #8: packet sent
+2019-02-24 17:14:06.944880 Seq #8:  Time Generated: 7907.314 ;  RTT: 5.233 ;  Number of Attempts: 1
+2019-02-24 17:14:07.045024 Seq #9: packet sent
+2019-02-24 17:14:07.050438 Seq #9:  Time Generated: 8012.748 ;  RTT: 5.411 ;  Number of Attempts: 1
+2019-02-24 17:14:07.150524 Seq #10: packet sent
+2019-02-24 17:14:07.155790 Seq #10:  Time Generated: 8118.138 ;  RTT: 5.264 ;  Number of Attempts: 1
+2019-02-24 17:14:07.256032 Seq #0: packet sent
+2019-02-24 17:14:07.265023 Seq #0:  Time Generated: 8223.712 ;  RTT: 8.974 ;  Number of Attempts: 1
+2019-02-24 17:14:07.361466 Seq #1: packet sent
+2019-02-24 17:14:07.377701 Seq #1: Timeout
+2019-02-24 17:14:07.377979 Seq #1: packet sent
+2019-02-24 17:14:07.394251 Seq #1: Timeout
+2019-02-24 17:14:07.394502 Seq #1: packet sent
+2019-02-24 17:14:07.399752 Seq #1:  Time Generated: 8329.143 ;  RTT: 5.248 ;  Number of Attempts: 3
+2019-02-24 17:14:07.466867 Seq #2: packet sent
+2019-02-24 17:14:07.472192 Seq #2:  Time Generated: 8434.601 ;  RTT: 5.326 ;  Number of Attempts: 1
+2019-02-24 17:14:07.572257 Seq #3: packet sent
+2019-02-24 17:14:07.577472 Seq #3:  Time Generated: 8539.979 ;  RTT: 5.216 ;  Number of Attempts: 1
+2019-02-24 17:14:07.677675 Seq #4: packet sent
+2019-02-24 17:14:07.682928 Seq #4:  Time Generated: 8645.380 ;  RTT: 5.253 ;  Number of Attempts: 1
+2019-02-24 17:14:07.783052 Seq #5: packet sent
+2019-02-24 17:14:07.799265 Seq #5: Timeout
+2019-02-24 17:14:07.799466 Seq #5: packet sent
+2019-02-24 17:14:07.815712 Seq #5: Timeout
+2019-02-24 17:14:07.815857 Seq #5: packet sent
+2019-02-24 17:14:07.821065 Seq #5:  Time Generated: 8750.776 ;  RTT: 5.207 ;  Number of Attempts: 3
+2019-02-24 17:14:07.888415 Seq #6: packet sent
+2019-02-24 17:14:07.904666 Seq #6: Timeout
+2019-02-24 17:14:07.904875 Seq #6: packet sent
+2019-02-24 17:14:07.910074 Seq #6:  Time Generated: 8856.201 ;  RTT: 5.198 ;  Number of Attempts: 2
+2019-02-24 17:14:07.993910 Seq #7: packet sent
+2019-02-24 17:14:08.005015 Seq #7:  Time Generated: 8961.602 ;  RTT: 11.106 ;  Number of Attempts: 1
+2019-02-24 17:14:08.099306 Seq #8: packet sent
+2019-02-24 17:14:08.104641 Seq #8:  Time Generated: 9067.068 ;  RTT: 5.332 ;  Number of Attempts: 1
+2019-02-24 17:14:08.204794 Seq #9: packet sent
+2019-02-24 17:14:08.221173 Seq #9: Timeout
+2019-02-24 17:14:08.221396 Seq #9: packet sent
+2019-02-24 17:14:08.226652 Seq #9:  Time Generated: 9172.448 ;  RTT: 5.255 ;  Number of Attempts: 2
+2019-02-24 17:14:08.311928 Seq #10: packet sent
+2019-02-24 17:14:08.328259 Seq #10: Timeout
+2019-02-24 17:14:08.328500 Seq #10: packet sent
+2019-02-24 17:14:08.344809 Seq #10: Timeout
+2019-02-24 17:14:08.345006 Seq #10: packet sent
+2019-02-24 17:14:08.350262 Seq #10:  Time Generated: 9278.689 ;  RTT: 5.254 ;  Number of Attempts: 3
+2019-02-24 17:14:08.416297 Seq #0: packet sent
+2019-02-24 17:14:08.432630 Seq #0: Timeout
+2019-02-24 17:14:08.432816 Seq #0: packet sent
+2019-02-24 17:14:08.449151 Seq #0: Timeout
+2019-02-24 17:14:08.449324 Seq #0: packet sent
+2019-02-24 17:14:08.465657 Seq #0: Timeout
+2019-02-24 17:14:08.465841 Seq #0: packet sent
+2019-02-24 17:14:08.482175 Seq #0: Timeout
+2019-02-24 17:14:08.482339 Seq #0: packet sent
+2019-02-24 17:14:08.487575 Seq #0:  Time Generated: 9384.082 ;  RTT: 5.234 ;  Number of Attempts: 5
+2019-02-24 17:14:08.521641 Seq #1: packet sent
+2019-02-24 17:14:08.527879 Seq #1:  Time Generated: 9489.448 ;  RTT: 6.237 ;  Number of Attempts: 1
+2019-02-24 17:14:08.627084 Seq #2: packet sent
+2019-02-24 17:14:08.632371 Seq #2:  Time Generated: 9594.794 ;  RTT: 5.286 ;  Number of Attempts: 1
+2019-02-24 17:14:08.732453 Seq #3: packet sent
+2019-02-24 17:14:08.748734 Seq #3: Timeout
+2019-02-24 17:14:08.748917 Seq #3: packet sent
+2019-02-24 17:14:08.754228 Seq #3:  Time Generated: 9700.190 ;  RTT: 5.307 ;  Number of Attempts: 2
+2019-02-24 17:14:08.837740 Seq #4: packet sent
+2019-02-24 17:14:08.842988 Seq #4:  Time Generated: 9805.524 ;  RTT: 5.248 ;  Number of Attempts: 1
+2019-02-24 17:14:08.943123 Seq #5: packet sent
+2019-02-24 17:14:08.959500 Seq #5: Timeout
+2019-02-24 17:14:08.959741 Seq #5: packet sent
+2019-02-24 17:14:08.976119 Seq #5: Timeout
+2019-02-24 17:14:08.976359 Seq #5: packet sent
+2019-02-24 17:14:08.981590 Seq #5:  Time Generated: 9910.877 ;  RTT: 5.229 ;  Number of Attempts: 3
+2019-02-24 17:14:09.048355 Seq #6: packet sent
+2019-02-24 17:14:09.064668 Seq #6: Timeout
+2019-02-24 17:14:09.064863 Seq #6: packet sent
+2019-02-24 17:14:09.081205 Seq #6: Timeout
+2019-02-24 17:14:09.081465 Seq #6: packet sent
+2019-02-24 17:14:09.097836 Seq #6: Timeout
+2019-02-24 17:14:09.098058 Seq #6: packet sent
+2019-02-24 17:14:09.103319 Seq #6:  Time Generated: 10016.189 ;  RTT: 5.259 ;  Number of Attempts: 4
+2019-02-24 17:14:09.153792 Seq #7: packet sent
+2019-02-24 17:14:09.171747 Seq #7: Timeout
+2019-02-24 17:14:09.172057 Seq #7: packet sent
+2019-02-24 17:14:09.188403 Seq #7: Timeout
+2019-02-24 17:14:09.188652 Seq #7: packet sent
+2019-02-24 17:14:09.205012 Seq #7: Timeout
+2019-02-24 17:14:09.205244 Seq #7: packet sent
+2019-02-24 17:14:09.221594 Seq #7: Timeout
+2019-02-24 17:14:09.221840 Seq #7: packet sent
+2019-02-24 17:14:09.238190 Seq #7: Timeout
+2019-02-24 17:14:09.238420 Seq #7: packet sent
+2019-02-24 17:14:09.254773 Seq #7: Timeout
+2019-02-24 17:14:09.255137 Seq #7: packet sent
+2019-02-24 17:14:09.255182 Seq #8: packet sent
+2019-02-24 17:14:09.271506 Seq #7: Timeout
+2019-02-24 17:14:09.271744 Seq #7: packet sent
+2019-02-24 17:14:09.271804 Seq #8: packet sent
+2019-02-24 17:14:09.277011 Seq #7:  Time Generated: 10121.587 ;  RTT: 5.264 ;  Number of Attempts: 8
+2019-02-24 17:14:09.293437 Seq #8: Timeout
+2019-02-24 17:14:09.293678 Seq #8: packet sent
+2019-02-24 17:14:09.309942 Seq #8: Timeout
+2019-02-24 17:14:09.310195 Seq #8: packet sent
+2019-02-24 17:14:09.315459 Seq #8:  Time Generated: 10222.948 ;  RTT: 5.261 ;  Number of Attempts: 4
+2019-02-24 17:14:09.361287 Seq #9: packet sent
+2019-02-24 17:14:09.377638 Seq #9: Timeout
+2019-02-24 17:14:09.377847 Seq #9: packet sent
+2019-02-24 17:14:09.394169 Seq #9: Timeout
+2019-02-24 17:14:09.394365 Seq #9: packet sent
+2019-02-24 17:14:09.410704 Seq #9: Timeout
+2019-02-24 17:14:09.410948 Seq #9: packet sent
+2019-02-24 17:14:09.427277 Seq #9: Timeout
+2019-02-24 17:14:09.427489 Seq #9: packet sent
+2019-02-24 17:14:09.443825 Seq #9: Timeout
+2019-02-24 17:14:09.444207 Seq #9: packet sent
+2019-02-24 17:14:09.449502 Seq #9:  Time Generated: 10329.102 ;  RTT: 5.294 ;  Number of Attempts: 6
+2019-02-24 17:14:09.466572 Seq #10: packet sent
+2019-02-24 17:14:09.482903 Seq #10: Timeout
+2019-02-24 17:14:09.483132 Seq #10: packet sent
+2019-02-24 17:14:09.488406 Seq #10:  Time Generated: 10434.416 ;  RTT: 5.288 ;  Number of Attempts: 2
+2019-02-24 17:14:09.572028 Seq #0: packet sent
+2019-02-24 17:14:09.577347 Seq #0:  Time Generated: 10539.813 ;  RTT: 5.303 ;  Number of Attempts: 1
+packet generation rate: 10
+packet length: 100
+retransmission rate: 2.200000
+average RTT (ms): 5.572

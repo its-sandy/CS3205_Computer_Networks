@@ -1,0 +1,7 @@
+Namespace(bufferSize=10, debug=False, maxPackets=400, packetGenRate=10, packetLength=512, receiverIP='127.0.0.1', receiverPortNo=12345, timeoutTime=0.1, windowSize=3)
+socket connection established
+
+ACK_RECEIVER thread started
+
+PACKET_GENERATOR started
+

@@ -1,0 +1,183 @@
+Namespace(bufferSize=5, debug=True, maxPackets=40, maxSeqNum=None, packetErrorRate=0.5, receiverIP='127.0.0.1', receiverPortNo=12345, verbose=True, windowSize=4)
+seqnum got = 0, case 1
+2019-02-24 16:04:22.973003 Seq #0:  Time Received (ms): 8055.089;  Packet Lost
+seqnum got = 1, case 4
+2019-02-24 16:04:23.078546 Seq #1:  Packet added to buffer
+seqnum got = 2, case 4
+2019-02-24 16:04:23.184153 Seq #2:  Packet added to buffer
+seqnum got = 0, case 4
+2019-02-24 16:04:23.288960 Seq #0:  Packet added to buffer
+2019-02-24 16:04:23.289015 Seq #0:  Time Received (ms): 8371.041;  Packet Forwarded to upper layer in order
+2019-02-24 16:04:23.289035 Seq #1:  Time Received (ms): 8160.632;  Packet Forwarded to upper layer in order
+2019-02-24 16:04:23.289043 Seq #2:  Time Received (ms): 8266.230;  Packet Forwarded to upper layer in order
+seqnum got = 3, case 1
+2019-02-24 16:04:23.289244 Seq #3:  Time Received (ms): 8371.366;  Packet Lost
+seqnum got = 4, case 4
+2019-02-24 16:04:23.394588 Seq #4:  Packet added to buffer
+seqnum got = 5, case 4
+2019-02-24 16:04:23.499926 Seq #5:  Packet added to buffer
+seqnum got = 3, case 1
+2019-02-24 16:04:23.604783 Seq #3:  Time Received (ms): 8686.900;  Packet Lost
+seqnum got = 6, case 4
+2019-02-24 16:04:23.605178 Seq #6:  Packet added to buffer
+seqnum got = 3, case 1
+2019-02-24 16:04:23.920497 Seq #3:  Time Received (ms): 9002.615;  Packet Lost
+seqnum got = 3, case 4
+2019-02-24 16:04:24.241869 Seq #3:  Packet added to buffer
+2019-02-24 16:04:24.241883 Seq #3:  Time Received (ms): 9323.960;  Packet Forwarded to upper layer in order
+2019-02-24 16:04:24.241897 Seq #4:  Time Received (ms): 8476.679;  Packet Forwarded to upper layer in order
+2019-02-24 16:04:24.241909 Seq #5:  Time Received (ms): 8582.013;  Packet Forwarded to upper layer in order
+2019-02-24 16:04:24.241921 Seq #6:  Time Received (ms): 8687.282;  Packet Forwarded to upper layer in order
+seqnum got = 7, case 1
+2019-02-24 16:04:24.247710 Seq #7:  Time Received (ms): 9329.828;  Packet Lost
+seqnum got = 8, case 1
+2019-02-24 16:04:24.247952 Seq #8:  Time Received (ms): 9330.076;  Packet Lost
+seqnum got = 0, case 4
+2019-02-24 16:04:24.248385 Seq #0:  Packet added to buffer
+seqnum got = 1, case 4
+2019-02-24 16:04:24.248896 Seq #1:  Packet added to buffer
+seqnum got = 8, case 4
+2019-02-24 16:04:24.553493 Seq #8:  Packet added to buffer
+seqnum got = 7, case 4
+2019-02-24 16:04:24.558808 Seq #7:  Packet added to buffer
+2019-02-24 16:04:24.558823 Seq #7:  Time Received (ms): 9640.895;  Packet Forwarded to upper layer in order
+2019-02-24 16:04:24.558833 Seq #8:  Time Received (ms): 9635.553;  Packet Forwarded to upper layer in order
+2019-02-24 16:04:24.558840 Seq #0:  Time Received (ms): 9330.477;  Packet Forwarded to upper layer in order
+2019-02-24 16:04:24.558846 Seq #1:  Time Received (ms): 9330.982;  Packet Forwarded to upper layer in order
+seqnum got = 2, case 1
+2019-02-24 16:04:24.564258 Seq #2:  Time Received (ms): 9646.384;  Packet Lost
+seqnum got = 3, case 1
+2019-02-24 16:04:24.564440 Seq #3:  Time Received (ms): 9646.564;  Packet Lost
+seqnum got = 4, case 4
+2019-02-24 16:04:24.564552 Seq #4:  Packet added to buffer
+seqnum got = 5, case 1
+2019-02-24 16:04:24.564713 Seq #5:  Time Received (ms): 9646.829;  Packet Lost
+seqnum got = 2, case 1
+2019-02-24 16:04:24.584907 Seq #2:  Time Received (ms): 9667.027;  Packet Lost
+seqnum got = 3, case 4
+2019-02-24 16:04:24.595036 Seq #3:  Packet added to buffer
+seqnum got = 5, case 1
+2019-02-24 16:04:24.600454 Seq #5:  Time Received (ms): 9682.572;  Packet Lost
+seqnum got = 2, case 4
+2019-02-24 16:04:24.611017 Seq #2:  Packet added to buffer
+2019-02-24 16:04:24.611038 Seq #2:  Time Received (ms): 9693.106;  Packet Forwarded to upper layer in order
+2019-02-24 16:04:24.611050 Seq #3:  Time Received (ms): 9677.137;  Packet Forwarded to upper layer in order
+2019-02-24 16:04:24.611058 Seq #4:  Time Received (ms): 9646.661;  Packet Forwarded to upper layer in order
+seqnum got = 5, case 1
+2019-02-24 16:04:24.616696 Seq #5:  Time Received (ms): 9698.817;  Packet Lost
+seqnum got = 6, case 4
+2019-02-24 16:04:24.616763 Seq #6:  Packet added to buffer
+seqnum got = 5, case 4
+2019-02-24 16:04:24.642984 Seq #5:  Packet added to buffer
+2019-02-24 16:04:24.642997 Seq #5:  Time Received (ms): 9725.087;  Packet Forwarded to upper layer in order
+2019-02-24 16:04:24.643008 Seq #6:  Time Received (ms): 9698.870;  Packet Forwarded to upper layer in order
+seqnum got = 7, case 4
+2019-02-24 16:04:24.664054 Seq #7:  Packet added to buffer
+2019-02-24 16:04:24.664067 Seq #7:  Time Received (ms): 9746.147;  Packet Forwarded to upper layer in order
+seqnum got = 8, case 4
+2019-02-24 16:04:24.769497 Seq #8:  Packet added to buffer
+2019-02-24 16:04:24.769511 Seq #8:  Time Received (ms): 9851.578;  Packet Forwarded to upper layer in order
+seqnum got = 0, case 4
+2019-02-24 16:04:24.874906 Seq #0:  Packet added to buffer
+2019-02-24 16:04:24.874921 Seq #0:  Time Received (ms): 9956.984;  Packet Forwarded to upper layer in order
+seqnum got = 1, case 1
+2019-02-24 16:04:24.980481 Seq #1:  Time Received (ms): 10062.586;  Packet Lost
+seqnum got = 1, case 4
+2019-02-24 16:04:25.023387 Seq #1:  Packet added to buffer
+2019-02-24 16:04:25.023405 Seq #1:  Time Received (ms): 10105.474;  Packet Forwarded to upper layer in order
+seqnum got = 2, case 4
+2019-02-24 16:04:25.085785 Seq #2:  Packet added to buffer
+2019-02-24 16:04:25.085801 Seq #2:  Time Received (ms): 10167.865;  Packet Forwarded to upper layer in order
+seqnum got = 3, case 1
+2019-02-24 16:04:25.191099 Seq #3:  Time Received (ms): 10273.217;  Packet Lost
+seqnum got = 3, case 4
+2019-02-24 16:04:25.235795 Seq #3:  Packet added to buffer
+2019-02-24 16:04:25.235811 Seq #3:  Time Received (ms): 10317.891;  Packet Forwarded to upper layer in order
+seqnum got = 4, case 4
+2019-02-24 16:04:25.296562 Seq #4:  Packet added to buffer
+2019-02-24 16:04:25.296579 Seq #4:  Time Received (ms): 10378.641;  Packet Forwarded to upper layer in order
+seqnum got = 5, case 4
+2019-02-24 16:04:25.401932 Seq #5:  Packet added to buffer
+2019-02-24 16:04:25.401953 Seq #5:  Time Received (ms): 10484.012;  Packet Forwarded to upper layer in order
+seqnum got = 6, case 1
+2019-02-24 16:04:25.507758 Seq #6:  Time Received (ms): 10589.871;  Packet Lost
+seqnum got = 6, case 4
+2019-02-24 16:04:25.553053 Seq #6:  Packet added to buffer
+2019-02-24 16:04:25.553076 Seq #6:  Time Received (ms): 10635.138;  Packet Forwarded to upper layer in order
+seqnum got = 7, case 1
+2019-02-24 16:04:25.613388 Seq #7:  Time Received (ms): 10695.503;  Packet Lost
+seqnum got = 7, case 4
+2019-02-24 16:04:25.654936 Seq #7:  Packet added to buffer
+2019-02-24 16:04:25.654957 Seq #7:  Time Received (ms): 10737.001;  Packet Forwarded to upper layer in order
+seqnum got = 8, case 1
+2019-02-24 16:04:25.719036 Seq #8:  Time Received (ms): 10801.154;  Packet Lost
+seqnum got = 8, case 1
+2019-02-24 16:04:25.766556 Seq #8:  Time Received (ms): 10848.661;  Packet Lost
+seqnum got = 8, case 4
+2019-02-24 16:04:25.798644 Seq #8:  Packet added to buffer
+2019-02-24 16:04:25.798657 Seq #8:  Time Received (ms): 10880.727;  Packet Forwarded to upper layer in order
+seqnum got = 0, case 4
+2019-02-24 16:04:25.824524 Seq #0:  Packet added to buffer
+2019-02-24 16:04:25.824540 Seq #0:  Time Received (ms): 10906.614;  Packet Forwarded to upper layer in order
+seqnum got = 1, case 4
+2019-02-24 16:04:25.929927 Seq #1:  Packet added to buffer
+2019-02-24 16:04:25.929943 Seq #1:  Time Received (ms): 11012.012;  Packet Forwarded to upper layer in order
+seqnum got = 2, case 4
+2019-02-24 16:04:26.035594 Seq #2:  Packet added to buffer
+2019-02-24 16:04:26.035611 Seq #2:  Time Received (ms): 11117.661;  Packet Forwarded to upper layer in order
+seqnum got = 3, case 1
+2019-02-24 16:04:26.140758 Seq #3:  Time Received (ms): 11222.863;  Packet Lost
+seqnum got = 3, case 1
+2019-02-24 16:04:26.183091 Seq #3:  Time Received (ms): 11265.206;  Packet Lost
+seqnum got = 3, case 1
+2019-02-24 16:04:26.215106 Seq #3:  Time Received (ms): 11297.225;  Packet Lost
+seqnum got = 3, case 4
+2019-02-24 16:04:26.242214 Seq #3:  Packet added to buffer
+2019-02-24 16:04:26.242232 Seq #3:  Time Received (ms): 11324.274;  Packet Forwarded to upper layer in order
+seqnum got = 4, case 1
+2019-02-24 16:04:26.242387 Seq #4:  Time Received (ms): 11324.502;  Packet Lost
+seqnum got = 4, case 4
+2019-02-24 16:04:26.289665 Seq #4:  Packet added to buffer
+2019-02-24 16:04:26.289680 Seq #4:  Time Received (ms): 11371.761;  Packet Forwarded to upper layer in order
+seqnum got = 5, case 1
+2019-02-24 16:04:26.347867 Seq #5:  Time Received (ms): 11429.985;  Packet Lost
+seqnum got = 5, case 1
+2019-02-24 16:04:26.396473 Seq #5:  Time Received (ms): 11478.574;  Packet Lost
+seqnum got = 5, case 4
+2019-02-24 16:04:26.435061 Seq #5:  Packet added to buffer
+2019-02-24 16:04:26.435077 Seq #5:  Time Received (ms): 11517.154;  Packet Forwarded to upper layer in order
+seqnum got = 6, case 4
+2019-02-24 16:04:26.450811 Seq #6:  Packet added to buffer
+2019-02-24 16:04:26.450827 Seq #6:  Time Received (ms): 11532.906;  Packet Forwarded to upper layer in order
+seqnum got = 7, case 4
+2019-02-24 16:04:26.556284 Seq #7:  Packet added to buffer
+2019-02-24 16:04:26.556301 Seq #7:  Time Received (ms): 11638.374;  Packet Forwarded to upper layer in order
+seqnum got = 8, case 1
+2019-02-24 16:04:26.661452 Seq #8:  Time Received (ms): 11743.570;  Packet Lost
+seqnum got = 8, case 1
+2019-02-24 16:04:26.695042 Seq #8:  Time Received (ms): 11777.143;  Packet Lost
+seqnum got = 8, case 1
+2019-02-24 16:04:26.733347 Seq #8:  Time Received (ms): 11815.458;  Packet Lost
+seqnum got = 8, case 1
+2019-02-24 16:04:26.762198 Seq #8:  Time Received (ms): 11844.313;  Packet Lost
+seqnum got = 0, case 4
+2019-02-24 16:04:26.762483 Seq #0:  Packet added to buffer
+seqnum got = 8, case 1
+2019-02-24 16:04:26.810797 Seq #8:  Time Received (ms): 11892.904;  Packet Lost
+seqnum got = 8, case 1
+2019-02-24 16:04:26.848998 Seq #8:  Time Received (ms): 11931.119;  Packet Lost
+seqnum got = 8, case 4
+2019-02-24 16:04:26.867168 Seq #8:  Packet added to buffer
+2019-02-24 16:04:26.867205 Seq #8:  Time Received (ms): 11949.267;  Packet Forwarded to upper layer in order
+2019-02-24 16:04:26.867220 Seq #0:  Time Received (ms): 11844.582;  Packet Forwarded to upper layer in order
+seqnum got = 1, case 4
+2019-02-24 16:04:26.867247 Seq #1:  Packet added to buffer
+2019-02-24 16:04:26.867254 Seq #1:  Time Received (ms): 11949.371;  Packet Forwarded to upper layer in order
+seqnum got = 2, case 4
+2019-02-24 16:04:26.972635 Seq #2:  Packet added to buffer
+2019-02-24 16:04:26.972650 Seq #2:  Time Received (ms): 12054.721;  Packet Forwarded to upper layer in order
+seqnum got = 3, case 1
+2019-02-24 16:04:27.078067 Seq #3:  Time Received (ms): 12160.172;  Packet Lost
+seqnum got = 3, case 4
+2019-02-24 16:04:27.126324 Seq #3:  Packet added to buffer
+2019-02-24 16:04:27.126340 Seq #3:  Time Received (ms): 12208.425;  Packet Forwarded to upper layer in order

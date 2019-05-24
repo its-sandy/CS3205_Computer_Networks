@@ -1,0 +1,30 @@
+FILE TRANSFER PROTOCOL
+
+################ Usage ##################
+
+File:           FTPclient.py
+Description:    client program
+Example Usage:  python FTPclient.py -s 192.168.1.10 -p 10000 -v
+Arguments:      -s  server name/ IP address (optional, default to 127.0.0.1)
+                -p  server port number (optional)
+                -v  enables verbose mode
+
+File:           FTPserver.py
+Description:    server program (to be executed before client)
+Example Usage:  python FTPserver.py -p 10000 -v
+                -p  server port number (optional)
+                -v  enables verbose mode
+
+############ File Descriptions ########### 
+
+1. localmachine and localmachine.pcapng are the typescript and wireshark capture files for a test run when both client and server were run on the same machine
+2. twomachines and twomachines.pcapng are the typescript and wireshark capture files for a test run when client and server were run on two different machines connected to the same wireless network.
+3. sample_session directory contains files, directories and also copies of the source code that may be used for testing.
+
+############### Assumptions###############
+
+1. The root directories for both client and server are taken to be the directories from which the programs were called. When cd or lcd commands do not specify the directory, they go back to these directories respectively.
+2. The NULL character '\x00' (ASCII 0) end of data.
+3. 'Directory Error' indicates a missing directory and 'File Error' indicates a missing file.
+4. We assume that all commands, except the STOR and RETR commands, use only one packet (of maximum size taken to be 1024 bytes). STOR and RETR commands can be used transfer arbitrarily large files.
+5. In STOR and RETR commands, Directory Error is checked before File Error. Server stays in the new directory even if transfer fails due to File Error.

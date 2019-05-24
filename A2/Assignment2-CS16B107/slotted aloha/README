@@ -1,0 +1,14 @@
+################ Slotted ALOHA ##################
+
+File:           slotted_aloha.py
+Example Usage:  python slotted_aloha.py -n 50 -w 2 -p 0.02 -m 4000 -v -r
+Arguments:      -n  number of nodes
+                -w  initial value of collision window
+                -p  packet generation rate
+                -m  maximum number of packets to be transmitted
+                -v  activates verbose mode
+                -r  if enabled, the program quits if number of retransmissions for a particular packet exceeds 10
+
+Running the script
+
+#################################################

@@ -1,0 +1,24 @@
+The packets used the following flags
+ACK - acknowledges received data
+PSH - indicates that the data in the packet should be pushed immediately to the receiver application. All packets that contain actual data sent have this flags
+SYN - used when socket connection is established
+FIN - used when socket connection is closed
+
+use filter < tcp.port == 10000 > while analyzing the following files 
+####################################3
+localmachine.pcapng - wireshark capture file for a test run when both client and server were run on the same machine
+
+client IP:      127.0.0.1 (local host)
+client Port No: 52044
+
+server IP:      127.0.0.1 (local host)
+server Port No: 10000
+
+####################################3
+twomachines.pcapng - wireshark capture file for a test run when client and server were run on the different machines on the same wireless LAN
+
+client IP:      192.168.1.6
+client Port No: 40334
+
+server IP:      192.168.1.10
+server Port No: 10000

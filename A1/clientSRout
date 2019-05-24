@@ -1,0 +1,202 @@
+Namespace(bufferSize=10, debug=True, maxPackets=40, packetGenRate=10, packetLength=100, receiverIP='127.0.0.1', receiverPortNo=12345, timeoutTime=0.3, verbose=True, windowSize=4)
+socket connection established
+
+ACK_RECEIVER thread started
+
+PACKET_GENERATOR started
+
+2019-02-24 16:04:22.972695 Seq #0: packet sent
+2019-02-24 16:04:23.078167 Seq #1: packet sent
+2019-02-24 16:04:23.083700 ACK #1:  received
+2019-02-24 16:04:23.083889 Seq #1:  Time Generated: 211.070 ;  RTT: 5.694 ;  Number of Attempts: 1
+2019-02-24 16:04:23.083928 Sender Window Left #0: 
+2019-02-24 16:04:23.183762 Seq #2: packet sent
+2019-02-24 16:04:23.189313 ACK #2:  received
+2019-02-24 16:04:23.189506 Seq #2:  Time Generated: 316.665 ;  RTT: 5.716 ;  Number of Attempts: 1
+2019-02-24 16:04:23.189545 Sender Window Left #0: 
+2019-02-24 16:04:23.278114 Seq #0: Timeout, packet resent
+2019-02-24 16:04:23.288901 Seq #3: packet sent
+2019-02-24 16:04:23.289034 ACK #0:  received
+2019-02-24 16:04:23.289067 Seq #0:  Time Generated: 105.656 ;  RTT: 10.911 ;  Number of Attempts: 2
+2019-02-24 16:04:23.289082 Sender Window Left #3: 
+2019-02-24 16:04:23.394253 Seq #4: packet sent
+2019-02-24 16:04:23.399720 ACK #4:  received
+2019-02-24 16:04:23.399811 Seq #4:  Time Generated: 527.193 ;  RTT: 5.529 ;  Number of Attempts: 1
+2019-02-24 16:04:23.399828 Sender Window Left #3: 
+2019-02-24 16:04:23.499689 Seq #5: packet sent
+2019-02-24 16:04:23.504994 ACK #5:  received
+2019-02-24 16:04:23.505026 Seq #5:  Time Generated: 632.639 ;  RTT: 5.310 ;  Number of Attempts: 1
+2019-02-24 16:04:23.505042 Sender Window Left #3: 
+2019-02-24 16:04:23.594386 Seq #3: Timeout, packet resent
+2019-02-24 16:04:23.604942 Seq #6: packet sent
+2019-02-24 16:04:23.610294 ACK #6:  received
+2019-02-24 16:04:23.610328 Seq #6:  Time Generated: 737.848 ;  RTT: 5.362 ;  Number of Attempts: 1
+2019-02-24 16:04:23.610343 Sender Window Left #3: 
+2019-02-24 16:04:23.910050 Seq #3: Timeout, packet resent
+2019-02-24 16:04:24.225665 Seq #3: Timeout, packet resent
+2019-02-24 16:04:24.247047 ACK #3:  received
+2019-02-24 16:04:24.247237 Seq #3:  Time Generated: 1374.911 ;  RTT: 21.541 ;  Number of Attempts: 4
+2019-02-24 16:04:24.247294 Sender Window Left #7: 
+2019-02-24 16:04:24.247427 Seq #7: packet sent
+2019-02-24 16:04:24.247685 Seq #8: packet sent
+2019-02-24 16:04:24.247939 Seq #0: packet sent
+2019-02-24 16:04:24.248339 Seq #1: packet sent
+2019-02-24 16:04:24.248568 ACK #0:  received
+2019-02-24 16:04:24.248606 Seq #0:  Time Generated: 1053.564 ;  RTT: 0.646 ;  Number of Attempts: 1
+2019-02-24 16:04:24.248638 Sender Window Left #7: 
+2019-02-24 16:04:24.254020 ACK #1:  received
+2019-02-24 16:04:24.254227 Seq #1:  Time Generated: 1159.007 ;  RTT: 5.861 ;  Number of Attempts: 1
+2019-02-24 16:04:24.254249 Sender Window Left #7: 
+2019-02-24 16:04:24.552881 Seq #8: Timeout, packet resent
+2019-02-24 16:04:24.553003 Seq #7: Timeout, packet resent
+2019-02-24 16:04:24.558572 ACK #8:  received
+2019-02-24 16:04:24.558613 Seq #8:  Time Generated: 948.751 ;  RTT: 5.699 ;  Number of Attempts: 2
+2019-02-24 16:04:24.558628 Sender Window Left #7: 
+2019-02-24 16:04:24.563820 ACK #7:  received
+2019-02-24 16:04:24.563877 Seq #7:  Time Generated: 843.299 ;  RTT: 10.841 ;  Number of Attempts: 2
+2019-02-24 16:04:24.563921 Sender Window Left #2: 
+2019-02-24 16:04:24.564011 Seq #2: packet sent
+2019-02-24 16:04:24.564203 Seq #3: packet sent
+2019-02-24 16:04:24.564338 Seq #4: packet sent
+2019-02-24 16:04:24.564500 Seq #5: packet sent
+2019-02-24 16:04:24.564558 ACK #4:  received
+2019-02-24 16:04:24.564583 Seq #4:  Time Generated: 1480.300 ;  RTT: 0.233 ;  Number of Attempts: 1
+2019-02-24 16:04:24.564594 Sender Window Left #2: 
+2019-02-24 16:04:24.584509 Seq #2: Timeout, packet resent
+2019-02-24 16:04:24.584616 Seq #3: Timeout, packet resent
+2019-02-24 16:04:24.584760 Seq #5: Timeout, packet resent
+2019-02-24 16:04:24.600158 ACK #3:  received
+2019-02-24 16:04:24.600209 Seq #3:  Time Generated: 1374.911 ;  RTT: 15.576 ;  Number of Attempts: 2
+2019-02-24 16:04:24.600226 Sender Window Left #2: 
+2019-02-24 16:04:24.600418 Seq #2: Timeout, packet resent
+2019-02-24 16:04:24.616025 ACK #2:  received
+2019-02-24 16:04:24.616203 Seq #5: Timeout, packet resent
+2019-02-24 16:04:24.616442 Seq #2:  Time Generated: 1264.376 ;  RTT: 16.001 ;  Number of Attempts: 3
+2019-02-24 16:04:24.616465 Sender Window Left #5: 
+2019-02-24 16:04:24.616578 Seq #6: packet sent
+2019-02-24 16:04:24.621870 ACK #6:  received
+2019-02-24 16:04:24.622066 Seq #6:  Time Generated: 1686.361 ;  RTT: 5.474 ;  Number of Attempts: 1
+2019-02-24 16:04:24.622105 Sender Window Left #5: 
+2019-02-24 16:04:24.632508 Seq #5: Timeout, packet resent
+2019-02-24 16:04:24.658179 ACK #5:  received
+2019-02-24 16:04:24.658239 Seq #5:  Time Generated: 1585.879 ;  RTT: 25.695 ;  Number of Attempts: 4
+2019-02-24 16:04:24.658252 Sender Window Left #7: 
+2019-02-24 16:04:24.663752 Seq #7: packet sent
+2019-02-24 16:04:24.669119 ACK #7:  received
+2019-02-24 16:04:24.669156 Seq #7:  Time Generated: 1796.745 ;  RTT: 5.374 ;  Number of Attempts: 1
+2019-02-24 16:04:24.669170 Sender Window Left #8: 
+2019-02-24 16:04:24.769139 Seq #8: packet sent
+2019-02-24 16:04:24.774565 ACK #8:  received
+2019-02-24 16:04:24.774605 Seq #8:  Time Generated: 1902.138 ;  RTT: 5.446 ;  Number of Attempts: 1
+2019-02-24 16:04:24.774638 Sender Window Left #0: 
+2019-02-24 16:04:24.874540 Seq #0: packet sent
+2019-02-24 16:04:24.879974 ACK #0:  received
+2019-02-24 16:04:24.880005 Seq #0:  Time Generated: 2007.558 ;  RTT: 5.440 ;  Number of Attempts: 1
+2019-02-24 16:04:24.880036 Sender Window Left #1: 
+2019-02-24 16:04:24.980114 Seq #1: packet sent
+2019-02-24 16:04:25.002765 Seq #1: Timeout, packet resent
+2019-02-24 16:04:25.033572 ACK #1:  received
+2019-02-24 16:04:25.033619 Seq #1:  Time Generated: 2113.021 ;  RTT: 30.807 ;  Number of Attempts: 2
+2019-02-24 16:04:25.033634 Sender Window Left #2: 
+2019-02-24 16:04:25.085441 Seq #2: packet sent
+2019-02-24 16:04:25.090915 ACK #2:  received
+2019-02-24 16:04:25.090967 Seq #2:  Time Generated: 2218.458 ;  RTT: 5.489 ;  Number of Attempts: 1
+2019-02-24 16:04:25.090984 Sender Window Left #3: 
+2019-02-24 16:04:25.190775 Seq #3: packet sent
+2019-02-24 16:04:25.215157 Seq #3: Timeout, packet resent
+2019-02-24 16:04:25.240854 ACK #3:  received
+2019-02-24 16:04:25.240962 Seq #3:  Time Generated: 2323.775 ;  RTT: 25.776 ;  Number of Attempts: 2
+2019-02-24 16:04:25.241000 Sender Window Left #4: 
+2019-02-24 16:04:25.296157 Seq #4: packet sent
+2019-02-24 16:04:25.301680 ACK #4:  received
+2019-02-24 16:04:25.301742 Seq #4:  Time Generated: 2429.146 ;  RTT: 5.566 ;  Number of Attempts: 1
+2019-02-24 16:04:25.301759 Sender Window Left #5: 
+2019-02-24 16:04:25.401671 Seq #5: packet sent
+2019-02-24 16:04:25.407007 ACK #5:  received
+2019-02-24 16:04:25.407061 Seq #5:  Time Generated: 2534.515 ;  RTT: 5.360 ;  Number of Attempts: 1
+2019-02-24 16:04:25.407085 Sender Window Left #6: 
+2019-02-24 16:04:25.507450 Seq #6: packet sent
+2019-02-24 16:04:25.532500 Seq #6: Timeout, packet resent
+2019-02-24 16:04:25.558074 ACK #6:  received
+2019-02-24 16:04:25.558120 Seq #6:  Time Generated: 2640.281 ;  RTT: 25.570 ;  Number of Attempts: 2
+2019-02-24 16:04:25.558137 Sender Window Left #7: 
+2019-02-24 16:04:25.613096 Seq #7: packet sent
+2019-02-24 16:04:25.639386 Seq #7: Timeout, packet resent
+2019-02-24 16:04:25.660059 ACK #7:  received
+2019-02-24 16:04:25.660238 Seq #7:  Time Generated: 2745.854 ;  RTT: 20.801 ;  Number of Attempts: 2
+2019-02-24 16:04:25.660257 Sender Window Left #8: 
+2019-02-24 16:04:25.718678 Seq #8: packet sent
+2019-02-24 16:04:25.745949 Seq #8: Timeout, packet resent
+2019-02-24 16:04:25.783178 Seq #8: Timeout, packet resent
+2019-02-24 16:04:25.803685 ACK #8:  received
+2019-02-24 16:04:25.803928 Seq #8:  Time Generated: 2851.600 ;  RTT: 20.726 ;  Number of Attempts: 3
+2019-02-24 16:04:25.803966 Sender Window Left #0: 
+2019-02-24 16:04:25.824127 Seq #0: packet sent
+2019-02-24 16:04:25.829646 ACK #0:  received
+2019-02-24 16:04:25.829803 Seq #0:  Time Generated: 2957.039 ;  RTT: 5.652 ;  Number of Attempts: 1
+2019-02-24 16:04:25.829842 Sender Window Left #1: 
+2019-02-24 16:04:25.929590 Seq #1: packet sent
+2019-02-24 16:04:25.935060 ACK #1:  received
+2019-02-24 16:04:25.940435 Seq #1:  Time Generated: 3062.529 ;  RTT: 10.824 ;  Number of Attempts: 1
+2019-02-24 16:04:25.940465 Sender Window Left #2: 
+2019-02-24 16:04:26.035156 Seq #2: packet sent
+2019-02-24 16:04:26.040722 ACK #2:  received
+2019-02-24 16:04:26.040771 Seq #2:  Time Generated: 3168.068 ;  RTT: 5.587 ;  Number of Attempts: 1
+2019-02-24 16:04:26.040800 Sender Window Left #3: 
+2019-02-24 16:04:26.140476 Seq #3: packet sent
+2019-02-24 16:04:26.167466 Seq #3: Timeout, packet resent
+2019-02-24 16:04:26.199680 Seq #3: Timeout, packet resent
+2019-02-24 16:04:26.236651 Seq #3: Timeout, packet resent
+2019-02-24 16:04:26.242067 Seq #4: packet sent
+2019-02-24 16:04:26.242298 ACK #3:  received
+2019-02-24 16:04:26.242365 Seq #3:  Time Generated: 3273.429 ;  RTT: 5.693 ;  Number of Attempts: 4
+2019-02-24 16:04:26.242400 Sender Window Left #4: 
+2019-02-24 16:04:26.269081 Seq #4: Timeout, packet resent
+2019-02-24 16:04:26.304927 ACK #4:  received
+2019-02-24 16:04:26.304992 Seq #4:  Time Generated: 3375.063 ;  RTT: 35.883 ;  Number of Attempts: 2
+2019-02-24 16:04:26.305008 Sender Window Left #5: 
+2019-02-24 16:04:26.347475 Seq #5: packet sent
+2019-02-24 16:04:26.375923 Seq #5: Timeout, packet resent
+2019-02-24 16:04:26.414404 Seq #5: Timeout, packet resent
+2019-02-24 16:04:26.440125 ACK #5:  received
+2019-02-24 16:04:26.440165 Seq #5:  Time Generated: 3480.446 ;  RTT: 25.731 ;  Number of Attempts: 3
+2019-02-24 16:04:26.440180 Sender Window Left #6: 
+2019-02-24 16:04:26.450554 Seq #6: packet sent
+2019-02-24 16:04:26.455929 ACK #6:  received
+2019-02-24 16:04:26.455988 Seq #6:  Time Generated: 3583.506 ;  RTT: 5.400 ;  Number of Attempts: 1
+2019-02-24 16:04:26.456004 Sender Window Left #7: 
+2019-02-24 16:04:26.555937 Seq #7: packet sent
+2019-02-24 16:04:26.561411 ACK #7:  received
+2019-02-24 16:04:26.561460 Seq #7:  Time Generated: 3688.909 ;  RTT: 5.483 ;  Number of Attempts: 1
+2019-02-24 16:04:26.561503 Sender Window Left #8: 
+2019-02-24 16:04:26.661192 Seq #8: packet sent
+2019-02-24 16:04:26.689620 Seq #8: Timeout, packet resent
+2019-02-24 16:04:26.717919 Seq #8: Timeout, packet resent
+2019-02-24 16:04:26.751450 Seq #8: Timeout, packet resent
+2019-02-24 16:04:26.762129 Seq #0: packet sent
+2019-02-24 16:04:26.767650 ACK #0:  received
+2019-02-24 16:04:26.767691 Seq #0:  Time Generated: 3895.109 ;  RTT: 5.523 ;  Number of Attempts: 1
+2019-02-24 16:04:26.767706 Sender Window Left #8: 
+2019-02-24 16:04:26.790179 Seq #8: Timeout, packet resent
+2019-02-24 16:04:26.828408 Seq #8: Timeout, packet resent
+2019-02-24 16:04:26.866637 Seq #8: Timeout, packet resent
+2019-02-24 16:04:26.866832 Seq #1: packet sent
+2019-02-24 16:04:26.877327 ACK #8:  received
+2019-02-24 16:04:26.877380 Seq #8:  Time Generated: 3794.218 ;  RTT: 10.723 ;  Number of Attempts: 7
+2019-02-24 16:04:26.877396 Sender Window Left #1: 
+2019-02-24 16:04:26.882552 ACK #1:  received
+2019-02-24 16:04:26.882620 Seq #1:  Time Generated: 3999.837 ;  RTT: 15.765 ;  Number of Attempts: 1
+2019-02-24 16:04:26.882633 Sender Window Left #2: 
+2019-02-24 16:04:26.972276 Seq #2: packet sent
+2019-02-24 16:04:26.977761 ACK #2:  received
+2019-02-24 16:04:26.977896 Seq #2:  Time Generated: 4105.232 ;  RTT: 5.597 ;  Number of Attempts: 1
+2019-02-24 16:04:26.977920 Sender Window Left #3: 
+2019-02-24 16:04:27.077743 Seq #3: packet sent
+2019-02-24 16:04:27.105755 Seq #3: Timeout, packet resent
+2019-02-24 16:04:27.136603 ACK #3:  received
+2019-02-24 16:04:27.136666 Seq #3:  Time Generated: 4210.680 ;  RTT: 30.888 ;  Number of Attempts: 2
+2019-02-24 16:04:27.136683 Sender Window Left #4: 
+packet generation rate: 10
+packet length: 100
+retransmission rate: 1.775000
+average RTT (ms): 11.780

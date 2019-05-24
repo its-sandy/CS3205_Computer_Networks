@@ -1,0 +1,61 @@
+################Go Back N##################
+
+File:           serverGBN.py
+Description:    receiver program (to be executed before sender)
+Example Usage:  python serverGBN.py -p 12345 -n 1000 -e 0.1 -m 11 -d -v
+Arguments:      -s  receiver name/ IP address (optional)
+                -p  receiver port number (optional)
+                -n  maximum number of packets to be acknowledged
+                -e  random packet drop rate
+                -m  maximum Sequence Number (should be 2*(sender window size) + 1)
+                -d  enables debug mode (optional)
+                -v  enables verbose mode for step by step status description (optional)
+
+
+File:           clientGBN.py
+Description:    sender program
+Example Usage:  python clientGBN.py -p 12345 -l 256 -r 300 -n 1000 -w 5 -b 10 -d -v
+Arguments:      -s  receiver name/ IP address (optional)
+                -p  receiver port number (optional)
+                -l  packet length in bytes
+                -r  packet generation rate in pkts/sec
+                -n  maximum number of packets to be acknowledged
+                -w  sender window size
+                -b  sender buffer size (must not be lesser than window size)
+                -t  initial value of sender timeout in seconds (float) (optional)
+                -d  enables debug mode (optional)
+                -v  enables verbose mode for step by step status description (optional)
+
+
+################Selective Repeat##################
+
+File:           serverSR.py
+Description:    receiver program (to be executed before sender)
+Example Usage:  python serverSR.py -p 12345 -n 100 -e 0.1 -m 5 -w 5 -b 5
+Arguments:      -s  receiver name/ IP address (optional)
+                -p  receiver port number (optional)
+                -n  maximum number of packets to be acknowledged
+                -e  random packet drop rate
+                -m  no. of bits in maximum sequence number
+                -w  receiver window size
+                -b  receiver buffer size
+                -d  enables debug mode (optional)
+                -v  enables verbose mode for step by step status description (optional)
+
+
+File:           clientSR.py
+Description:    sender program
+Example Usage:  python clientSR.py -p 12345 -l 256 -r 50 -n 100 -w 5 -b 5 -m 5
+Arguments:      -s  receiver name/ IP address (optional)
+                -p  receiver port number (optional)
+                -l  max packet length in bytes
+                -r  packet generation rate in pkts/sec
+                -n  maximum number of packets to be acknowledged
+                -w  sender window size
+                -b  sender buffer size
+                -m  no. of bits in maximum sequence number
+                -t  initial value of sender timeout in seconds (float) (optional)
+                -d  enables debug mode (optional)
+                -v  enables verbose mode for step by step status description (optional)
+
+###################################################

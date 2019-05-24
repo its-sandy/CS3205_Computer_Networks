@@ -1,0 +1,35 @@
+Script started on Thursday 21 March 2019 11:28:02 PM IST
+[1m[7m%[27m[1m[0m                                                                         [0m[27m[24m[J[34m~/D/C/A/s/client_folder [K[?1h=[0m[27m[24m[J[34m~/D/C/A/s/client_folder [1m[31m❯[33m❯[32m❯[39m[0m [K[?2004h[0m[27m[24m[J[34m~/D/C/A/s/client_folder [1m[31m❯[33m❯[32m❯[39m[0m [Kscript twomachines[18Dpython FTPclient.py -s 192.168.1.10 -v[?1l>[?2004l[0m[27m[24m[J[34m~/D/C/A/s/client_folder [1m[31m❯[33m❯[32m❯[39m[0m python FTPclient.py -s 192.168.1.10 -v[K
+Client Started
+Connection Established
+
+(FTP)>>> ls
+FTPserver.py
+s1
+s2
+s3
+SD2
+
+(FTP)>>> cd SD@ 2
+Current Server Working Directory:  C:\Users\Thamizhselvan\Desktop\santhosh\sample_session\server_folder\SD2
+
+(FTP)>>> lcd SD1
+Current Client Working Directory:  /home/santhosh/Desktop/CS3205/A3/sample_session/client_folder/SD1
+
+(FTP)>>> pwd
+Current Server Working Directory:  C:\Users\Thamizhselvan\Desktop\santhosh\sample_session\server_folder\SD2
+Current Client Working Directory:  /home/santhosh/Desktop/CS3205/A3/sample_session/client_folder/SD1
+
+(FTP)>>> get d
+received  267  bytes
+File Received Successfully
+
+(FTP)>>> put b
+sent  383  bytes
+File Sent Successfully
+
+(FTP)>>> quit
+Client Terminating
+[1m[7m%[27m[1m[0m                                                                         [0m[27m[24m[J[34m~/D/C/A/s/client_folder [1m[31m❯[33m❯[32m❯[39m[0m [K[?1h=[0m[27m[24m[J[34m~/D/C/A/s/client_folder [1m[31m❯[33m❯[32m❯[39m[0m [K[?2004h[0m[27m[24m[J[34m~/D/C/A/s/client_folder [1m[31m❯[33m❯[32m❯[39m[0m [K[?2004l
+
+Script done on Thursday 21 March 2019 11:28:41 PM IST

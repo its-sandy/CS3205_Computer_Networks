@@ -1,0 +1,11 @@
+********Cyclic Redundancy Check**********
+
+1) Generating test file:-
+	a) g++ -std=c++14 -o generate_infile generate_infile.cpp
+	b) ./generate_infile > crc_infile
+
+2) Testing CRC:-
+	a) g++ -std=c++14 -o crc crc.cpp
+	b) ./crc < crc_infile > crc_outfile
+
+*****************************************
